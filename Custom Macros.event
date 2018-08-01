@@ -1,0 +1,7 @@
+//Custom Macros
+#ifdef _FE8_ 
+#define GiveItem(item,character) "SVAL 0x3 item; GIVEITEMTO character"
+#define Raid(EventID,Pointer,X,Y) "LOCA EventID Pointer [X,Y] 0x21"
+#define TileChange(X,Y) "SETVAL 0xB Coords(X,Y) ; TILECHANGE 0xFFFF
+#define Coords(xcoord,ycoord) "(ycoord<<16)|xcoord"
+#endif

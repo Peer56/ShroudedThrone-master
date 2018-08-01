@@ -1,0 +1,43 @@
+//Phantom Stuff
+PUSH
+  ORG $7AEF8
+  BYTE 0x86
+  ORG $7AEF4
+  BYTE 0x86
+  ORG $7AEE4
+  BYTE 0x86
+  ORG $7AECA
+  BYTE 0x86
+  ORG $7AEA8
+  BYTE 0x86
+  ORG $7AEBC
+  BYTE 0x86
+  ORG $7AED6
+  BYTE 0x86
+POP
+
+//FE8 Skills
+PUSH
+  ORG $16C94 //Slayer  
+  BYTE 0x00
+  ORG $16C98
+  BYTE 0x00
+  ORG $2B346 //Great Shield
+  BYTE 0x00
+  ORG $2B34A
+  BYTE 0x00
+  ORG $2B226 //Sure Strike
+  BYTE 0x00
+  ORG $2B22A
+  BYTE 0x00
+  ORG $2B2AA //Pierce
+  BYTE 0x00
+  ORG $2B2AE
+  BYTE 0x00
+POP
+
+//Vulnerary Recovery Amount
+//PUSH
+//  ORG $2FEC6
+//  BYTE 0xA
+//POP

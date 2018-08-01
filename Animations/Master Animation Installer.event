@@ -1,0 +1,29 @@
+#ifndef ClassAnimTable
+  #ifdef _FE8_
+    #define ClassAnimTable (0xc00008-0x20)
+  #endif
+  #ifdef _FE7_
+    #define ClassAnimTable (0xe00008-0x20)
+  #endif
+#endif
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+
+//////////////Installed animations go here:
+
+#include "Yetizerker Installer.event"
+#include "SoldierLance Installer.event"
+#include "SoldierDisarmed Installer.event"
+#include "MSniperBow Installer.event"
+#include "MSniperUna Installer.event"
+#include "FSniperBow Installer.event"
+#include "FSniperUna Installer.event"
+#include "PhantomAxe Installer.event"
+#include "PhantomHax Installer.event"
+#include "PhantomUna Installer.event"
+#include "CyrusSword Installer.event"
+#include "CyrusKnife Installer.event"
+#include "CyrusUna Installer.event"
+
+//
+#include BattleAnimPointers.event
