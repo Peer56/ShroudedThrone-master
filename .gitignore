@@ -16,6 +16,11 @@
 *.gch
 *.pch
 
+# Rom Stuff
+*.gba
+*.sav
+*.ups
+
 # Libraries
 *.lib
 *.a
