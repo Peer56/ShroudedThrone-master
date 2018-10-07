@@ -1,0 +1,17 @@
+## NamePhantomAxe
+Phantom Axe[X]
+
+## DescPhantomAxe
+Bypasses weapon triangle.[X]
+
+## NameShiv
+Shiv[X]
+
+## DescShiv
+Effective against armor.[X]
+
+## NameFauchard
+Fauchard[X]
+
+## DescFauchard
+Effective against cavalry.[X]

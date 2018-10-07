@@ -1,0 +1,91 @@
+## NameKierra
+Kierra[X]
+
+## NamePhantom
+Phantom[X]
+
+## NameCyrus
+Cyrus[X]
+
+## NameAlain
+Alain[X]
+
+## NameGalahad
+Galahad[X]
+
+## NameOctavius
+Octavius[X]
+
+## NameKolton
+Kolton[X]
+
+## NameGulfrum
+Gulfrum[X]
+
+## NameSpencer
+Spencer[X]
+
+## NameWalcher
+Walcher[X]
+
+## NameCaptain
+Captain[X]
+
+## NameMilitia
+Militia[X]
+
+## NameBandit
+Bandit[X]
+
+## NameRacrien
+Racrien[X]
+
+## NameStratus
+Stratus[X]
+
+## DescKierra
+The kind Blood Eyed Princess of Stratus.[N]
+Determined to take back her kingdom.[X]
+
+## DescPhantom
+This is a placeholder.[X]
+
+## DescCyrus
+An enigmatic assassin hired to protect[N]
+Kierra. Strong-willed but quiet.[X]
+
+## DescAlain
+This is a placeholder.[X]
+
+## DescGalahad
+This is a placeholder.[X]
+
+## DescOctavius
+This is a placeholder.[X]
+
+## DescKolton
+This is a placeholder.[X]
+
+## DescGulfrum
+This is a placeholder.[X]
+
+## DescSpencer
+This is a placeholder.[X]
+
+## DescWalcher
+This is a placeholder.[X]
+
+## DescCaptain
+This is a placeholder.[X]
+
+## DescMilitia
+This is a placeholder.[X]
+
+## DescBandit
+This is a placeholder.[X]
+
+## DescRacrien
+This is a placeholder.[X]
+
+## DescStratus
+This is a placeholder.[X]

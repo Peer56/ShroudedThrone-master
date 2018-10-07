@@ -1,0 +1,143 @@
+#include EAstdlib.event
+
+EventPointerTable(0x0A,ThisChapter)
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Kierra KierraLord 0x0 Level(1,Ally,0) [5,16] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
+UNIT Cyrus CyrusLord 0x0 Level(1,Ally,0) [6,15] 0x0 0x0 0x0 0x0 [Rapier,Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT Spencer Brigand 0x0 Level(3,Enemy,0) [7,2] 0x0 0x0 0x1 REDA8R2 [IronAxe,HandAxe] AttackInRangeAI
+UNIT GenericCH2 Brigand Spencer Level(1,Enemy,1) [7,11] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT GenericCH2 Archer Spencer Level(1,Enemy,1) [10,13] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT GenericCH2 Fighter Spencer Level(2,Enemy,1) [5,8] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT GenericCH2 Archer Spencer Level(1,Enemy,1) [3,10] 0x0 0x0 0x0 0x0 [Longbow,Vulnerary] AttackInRangeAI
+UNIT GenericCH2 Mercenary Spencer Level(1,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT GenericCH2 AxeCavalier Spencer Level(1,Enemy,1) [4,0] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT GenericCH2 Myrmidon Spencer Level(1,Enemy,1) [10,8] 0x0 0x0 0x0 0x0 [IronSword,Vulnerary] AttackInRangeAI
+UNIT
+
+BottomReinforcements:
+UNIT GenericCH2 Myrmidon Spencer Level(2,Enemy,1) [15,8] 0x0 0x0 0x1 REDA12R10 [SteelSword] PursueWithoutHeedAI
+UNIT GenericCH2 SwordCavalier Spencer Level(1,Enemy,1) [15,8] 0x0 0x0 0x1 REDA12R9 [IronSword] AttackInRangeAI
+UNIT
+
+TopReinforcements:
+UNIT GenericCH2 Mage Spencer Level(1,Enemy,1) [0,5] 0x0 0x0 0x1 REDA2R5 [Fire] PursueWithoutHeedAI
+UNIT GenericCH2 Brigand Spencer Level(1,Enemy,1) [0,6] 0x0 0x0 0x1 REDA2R6 [IronAxe] AttackInRangeAI
+UNIT
+
+BossReinforcements:
+UNIT GenericCH2 LanceCavalier Spencer Level(1,Enemy,1) [6,17] 0x0 0x0 0x1 REDA6R15 [Javelin] PursueWithoutHeedAI
+UNIT GenericCH2 AxeCavalier Spencer Level(1,Enemy,1) [7,17] 0x0 0x0 0x1 REDA7R16 [SteelAxe] PursueWithoutHeedAI
+UNIT
+
+//Turn Events
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+//Character Events
+CharacterBasedEvents:
+END_MAIN
+
+//Location Events
+LocationBasedEvents:
+AREA 0xA LoadBottomReinforcements [6,11] [9,12]
+AREA 0xB LoadTopReinforcements [6,3] [9,5]
+AREA 0xC LoadBossReinforcements [7,1] [9,3]
+Seize(8,0)
+Seize(5,16) //DEBUG
+END_MAIN
+
+//Misc Events
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+//
+Dunno:
+END_MAIN
+
+//
+Tutorial:
+END_MAIN
+
+//Trap Data
+TrapData:
+ENDTRAP
+
+ALIGN 4
+LoadBossReinforcements:
+CHECK_ALLEGIANCE 0xFFFF
+BEQ 0x4 0x0 0xC
+ENUF 0xC
+NoFade
+ENDA
+LABEL 0x4
+CHECK_ALIVE Spencer
+BNE 0x1 0x0 0xC
+ENUF 0xC
+NoFade
+ENDA
+LABEL 0x1
+CAM1 [7,12]
+LOAD1 0x1 BossReinforcements
+ENUN
+NoFade
+ENDA
+
+ALIGN 4
+LoadBottomReinforcements:
+CHECK_ALLEGIANCE 0xFFFF
+BEQ 0x2 0x0 0xC
+ENUF 0xA
+NoFade
+ENDA
+LABEL 0x2
+CAM1 [8,9]
+LOAD1 0x1 BottomReinforcements
+ENUN
+NoFade
+ENDA
+
+ALIGN 4
+LoadTopReinforcements:
+CHECK_ALLEGIANCE 0xFFFF
+BEQ 0x3 0x0 0xC
+ENUF 0xB
+NoFade
+ENDA
+LABEL 0x3
+CAM1 [7,5]
+LOAD1 0x1 TopReinforcements
+ENUN
+NoFade
+ENDA
+
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 Bad
+ENUN
+ENDA
+
+EndingScene:
+MNC2 0x2
+NoFade
+ENDA 

@@ -1,0 +1,53 @@
+//Standing Map Sprites
+LegionnaireSt:
+#incext Png2Dmp "LegionnaireSt.png" --lz77
+AxeCavalierSt:
+#incext Png2Dmp "AxeCavalierSt.png" --lz77
+SwordCavalierSt:
+#incext Png2Dmp "SwordCavalierSt.png" --lz77
+LanceCavalierSt:
+#incext Png2Dmp "LanceCavalierSt.png" --lz77
+HalberdierSt:
+#incext Png2Dmp "HalberdierSt.png" --lz77
+GeneralSt:
+#incext Png2Dmp "GeneralSt.png" --lz77
+FemaleMercenarySt:
+#incext Png2Dmp "FemaleMercenarySt.png" --lz77
+FemaleHeroSt:
+#incext Png2Dmp "FemaleHeroSt.png" --lz77
+ArmorKnightSt:
+#incext Png2Dmp "ArmorKnightSt.png" --lz77
+BrigandSt:
+#incext Png2Dmp "BrigandSt.png" --lz77
+FighterSt:
+#incext Png2Dmp "FighterSt.png" --lz77
+T1KierraSt:
+#incext Png2Dmp "T1KierraSt.png" --lz77
+TransporterSt:
+#incext Png2Dmp "TransporterSt.png" --lz77
+
+//Moving Map Sprites
+LegionnaireMv:
+#incext Png2Dmp "LegionnaireMv.png" --lz77
+AxeCavalierMv:
+#incext Png2Dmp "AxeCavalierMv.png" --lz77
+SwordCavalierMv:
+#incext Png2Dmp "SwordCavalierMv.png" --lz77
+LanceCavalierMv:
+#incext Png2Dmp "LanceCavalierMv.png" --lz77
+HalberdierMv:
+#incext Png2Dmp "HalberdierMv.png" --lz77
+GeneralMv:
+#incext Png2Dmp "GeneralMv.png" --lz77
+FemaleMercenaryMv:
+#incext Png2Dmp "FemaleMercenaryMv.png" --lz77
+FemaleHeroMv:
+#incext Png2Dmp "FemaleHeroMv.png" --lz77
+FighterMv:
+#incext Png2Dmp "FighterMv.png" --lz77
+T1KierraMv:
+#incext Png2Dmp "T1KierraMv.png" --lz77
+AssassinMv:
+#incext Png2Dmp "AssassinMv.png" --lz77
+TransporterMv:
+#incext Png2Dmp "TransporterMv.png" --lz77

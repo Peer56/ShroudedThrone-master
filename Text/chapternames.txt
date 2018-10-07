@@ -1,0 +1,8 @@
+# 0x160 Ch1Name
+Ch1: Path of the Banished[X]
+
+## Ch1Name
+Ch2: Snakes Among Roses[X]
+
+## Ch2Name
+Ch3: Mountainous Assault[X]

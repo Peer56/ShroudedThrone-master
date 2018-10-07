@@ -1,0 +1,245 @@
+#######################################################
+#0B Landsknekt@001F Lance
+#
+#When importing to FEEditorAdv delete # and after each line.
+#######################################################
+/// - Mode 1               #Melee Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- lance_000.png
+3 p- lance_001.png
+3 p- lance_002.png
+2 p- lance_003.png
+2 p- lance_004.png
+C23                               #Play shorter sword swinging SFE
+4 p- lance_005.png
+3 p- lance_006.png
+7 p- lance_007.png
+3 p- lance_008.png
+3 p- lance_009.png
+8 p- lance_010.png
+C3C                               #Play sword "whooshing" SFE (done by Nomads; sounds like wing flap)
+4 p- lance_011.png
+2 p- lance_012.png
+3 p- lance_013.png
+4 p- lance_014.png
+4 p- lance_015.png
+C22                               #Play short sword swinging SFE
+3 p- lance_016.png
+3 p- lance_017.png
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
+C15                               #Slight vibration of screen
+C21                               #Play hit SFE (sounds like Knight Lord with sword's hit)
+C1A                               #Normal hit
+4 p- lance_018.png
+4 p- lance_019.png
+1 p- lance_020.png
+C01                               #NOP
+4 p- lance_021.png
+C42                               #Play long axe swinging SFE
+4 p- lance_022.png
+4 p- lance_023.png
+2 p- lance_024.png
+2 p- lance_025.png
+C1B                               #Play quick "heavy step" SFE
+2 p- lance_026.png
+2 p- lance_027.png
+2 p- lance_028.png
+2 p- lance_029.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+2 p- lance_030.png
+3 p- lance_031.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 3               #Melee Critical Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- lance_032.png
+3 p- lance_033.png
+3 p- lance_034.png
+2 p- lance_035.png
+C22                               #Play short sword swinging SFE
+3 p- lance_036.png
+2 p- lance_037.png
+C38                               #Play heavy spear spinning SFE
+2 p- lance_038.png
+2 p- lance_039.png
+C24                               #Play sword slashing air SFE
+4 p- lance_040.png
+4 p- lance_041.png
+C23                               #Play shorter sword swinging SFE
+10 p- lance_042.png
+3 p- lance_043.png
+2 p- lance_044.png
+5 p- lance_045.png
+C3C                               #Play sword "whooshing" SFE (done by Nomads; sounds like wing flap)
+4 p- lance_046.png
+2 p- lance_047.png
+3 p- lance_048.png
+5 p- lance_049.png
+3 p- lance_050.png
+C22                               #Play short sword swinging SFE
+4 p- lance_051.png
+5 p- lance_052.png
+C51                               #Show brief white flash animation
+C1F                               #Play hit SFE (sounds like Eliwood with sword's hit)
+C15                               #Slight vibration of screen
+4 p- lance_053.png
+4 p- lance_054.png
+2 p- lance_055.png
+C51                               #Show brief white flash animation
+C1F                               #Play hit SFE (sounds like Eliwood with sword's hit)
+C15                               #Slight vibration of screen
+2 p- lance_056.png
+4 p- lance_057.png
+4 p- lance_058.png
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
+C51                               #Show brief white flash animation
+C1F                               #Play hit SFE (sounds like Eliwood with sword's hit)
+C08                               #Critical hit
+1 p- lance_059.png
+C01                               #NOP
+4 p- lance_060.png
+C42                               #Play long axe swinging SFE
+4 p- lance_061.png
+4 p- lance_062.png
+2 p- lance_063.png
+2 p- lance_064.png
+C1B                               #Play quick "heavy step" SFE
+2 p- lance_065.png
+2 p- lance_066.png
+2 p- lance_067.png
+2 p- lance_068.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+2 p- lance_069.png
+3 p- lance_070.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 5               #Ranged Animation 
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- lance_071.png
+3 p- lance_072.png
+3 p- lance_073.png
+C22                               #Play short sword swinging SFE
+3 p- lance_074.png
+3 p- lance_075.png
+4 p- lance_076.png
+8 p- lance_077.png
+C25                               #Play wing flap SFE
+C05                               #Call spell associated with equipped weapon
+3 p- lance_078.png
+3 p- lance_079.png
+1 p- lance_080.png
+C01                               #NOP
+3 p- lance_081.png
+C1B                               #Play quick "heavy step" SFE
+3 p- lance_082.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+3 p- lance_083.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 6               #Ranged Critical Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- lance_084.png
+3 p- lance_085.png
+C23                               #Play shorter sword swinging SFE
+3 p- lance_086.png
+3 p- lance_087.png
+C22                               #Play short sword swinging SFE
+3 p- lance_088.png
+3 p- lance_089.png
+8 p- lance_090.png
+C25                               #Play wing flap SFE
+C05                               #Call spell associated with equipped weapon
+3 p- lance_091.png
+3 p- lance_092.png
+1 p- lance_093.png
+C01                               #NOP
+3 p- lance_094.png
+C1B                               #Play quick "heavy step" SFE
+3 p- lance_095.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+3 p- lance_096.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 7               #Dodge Melee Attack
+C02                               #Start of dodge
+1 p- lance_097.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- lance_098.png
+1 p- lance_099.png
+C01                               #NOP
+3 p- lance_100.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 8               #Dodge Ranged Attack
+C02                               #Start of dodge
+1 p- lance_101.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- lance_102.png
+1 p- lance_103.png
+C01                               #NOP
+3 p- lance_104.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 9               #Equiped with Melee Weapon
+1 p- lance_105.png
+C01                               #NOP
+~~~
+/// - Mode 10               #standing motions?
+1 p- lance_106.png
+C01                               #NOP
+~~~
+/// - Mode 11               #Equiped with Ranged weapon
+1 p- lance_107.png
+C01                               #NOP
+~~~
+/// - Mode 12               #Attack Missed Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- lance_108.png
+3 p- lance_109.png
+3 p- lance_110.png
+2 p- lance_111.png
+2 p- lance_112.png
+C23                               #Play shorter sword swinging SFE
+4 p- lance_113.png
+3 p- lance_114.png
+7 p- lance_115.png
+3 p- lance_116.png
+3 p- lance_117.png
+8 p- lance_118.png
+C3C                               #Play sword "whooshing" SFE (done by Nomads; sounds like wing flap)
+4 p- lance_119.png
+2 p- lance_120.png
+3 p- lance_121.png
+4 p- lance_122.png
+4 p- lance_123.png
+C22                               #Play short sword swinging SFE
+3 p- lance_124.png
+3 p- lance_125.png
+C04                               #Prepare HP depletion routine; needed to animate return to standing frame after hit
+C15                               #Slight vibration of screen
+2 p- lance_126.png
+2 p- lance_127.png
+1 p- lance_128.png
+C01                               #NOP
+4 p- lance_129.png
+C42                               #Play long axe swinging SFE
+4 p- lance_130.png
+4 p- lance_131.png
+2 p- lance_132.png
+2 p- lance_133.png
+C1B                               #Play quick "heavy step" SFE
+2 p- lance_134.png
+2 p- lance_135.png
+2 p- lance_136.png
+2 p- lance_137.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+2 p- lance_138.png
+3 p- lance_139.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - End of animation

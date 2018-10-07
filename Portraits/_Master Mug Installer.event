@@ -1,0 +1,51 @@
+#include "Tools/Tool Helpers.txt"
+
+ALIGN 4
+Kierra_Mug:
+#incext PortraitFormatter "KierraMug.png"
+setMugEntry(0x2, Kierra_Mug, 2,6,3,4)
+
+ALIGN 4
+EdgyKierra_Mug:
+#incext PortraitFormatter "EdgyKierraMug.png"
+setMugEntry(0x3, EdgyKierra_Mug, 2,6,3,4)
+
+ALIGN 4
+Cyrus_Mug:
+#incext PortraitFormatter "CyrusMug.png"
+setMugEntry(0x4, Cyrus_Mug, 3,5,3,3)
+
+ALIGN 4
+Gulfrum_Mug:
+#incext PortraitFormatter "GulfrumMug.png"
+setMugEntry(0x5, Gulfrum_Mug, 3,4,3,2)
+
+ALIGN 4
+Octavius_Mug:
+#incext PortraitFormatter "OctaviusMug.png"
+setMugEntry(0x6, Octavius_Mug, 3,5,3,3)
+
+ALIGN 4
+Kolton_Mug:
+#incext PortraitFormatter "KoltonMug.png"
+setMugEntry(0x7, Kolton_Mug, 3,5,3,3)
+
+ALIGN 4
+Alain_Mug:
+#incext PortraitFormatter "AlainMug.png"
+setMugEntry(0x14, Alain_Mug, 2,5,3,3)
+
+ALIGN 4
+Captain_Mug:
+#incext PortraitFormatter "CaptainMug.png"
+setMugEntry(0x2F, Captain_Mug, 2,5,3,3)
+
+ALIGN 4
+Spencer_Mug:
+#incext PortraitFormatter "SpencerMug.png"
+setMugEntry(0x30, Spencer_Mug, 2,5,2,3)
+
+ALIGN 4
+Walcher_Mug:
+#incext PortraitFormatter "WalcherMug.png"
+setMugEntry(0x31, Walcher_Mug, 3,5,3,3)

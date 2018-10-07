@@ -210,6 +210,7 @@ Vantage:
 #incbin "Other Skills/vantage.dmp"
 POIN SkillTester
 WORD VantageID
+WORD VantagePlusID
 
 Desperation:
 #incbin "Other Skills/desperation.dmp"
@@ -298,6 +299,11 @@ WindDisciple:
 POIN SkillTester
 WORD WindDiscipleID
 
+Hawkeye:
+#incbin "Blade Skills/Hawkeye.dmp"
+POIN SkillTester
+WORD HawkeyeID
+
 LightWeight:
 #incbin "Blade Skills/LightWeight.dmp"
 POIN SkillTester
@@ -378,6 +384,11 @@ TraceSkill:
 POIN SkillTester
 WORD TraceID
 POIN Skill_Getter
+
+#inctext lyn "Stances/Stances.elf"
+StanceSkillList:
+BYTE BracingStanceID DartingStanceID FierceStanceID KestrelStanceID MirrorStanceID ReadyStanceID SteadyStanceID SturdyStanceID SwiftStanceID WardingStanceID SpectrumStanceID
+ALIGN 4
 
 #include "Other Skills/RandomMugs.event"
 

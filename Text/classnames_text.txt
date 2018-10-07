@@ -1,0 +1,34 @@
+## NameLord
+Lord[X]
+
+## DescKierraLord
+Princess of Stratus who has the ability[N]
+to use staves and summon phantoms.[X]
+
+## DescCyrusLord
+A skilled assasin with quick reflexes[N]
+and strength.[X]
+
+## DescAlainLord
+A Royal of Racrien with mastery[N]
+over the lance.[X]
+
+## NameLanceKnight
+Lance Knight[X]
+
+## NameSwordKnight
+Sword Knight[X]
+
+## NameAxeKnight
+Axe Knight[X]
+
+## NameArmorKnight
+Armor Knight[X]
+
+## NameHalberdier
+Halberdier[X]
+
+## DescHalberdier
+Halberdier[X]
+
+

@@ -1,16 +1,8 @@
 EphraimLordSkillList:
-// BYTE 1 OddRhythmID
-//BYTE 10 BondID
-BYTE 10 HeroesDeathBlowID
-BYTE 20 AetherID
 BYTE 00 00
 ALIGN 4
 
 EirikaLordSkillList:
-BYTE 255 MoonbowID
-// BYTE 10 EvenRhythmID
-BYTE 10 RightfulKingID
-BYTE 20 BondID
 BYTE 00 00
 ALIGN 4
 
@@ -33,7 +25,7 @@ BYTE 00 00
 ALIGN 4
 
 CavalierSkillList:
-BYTE 1 DisciplineID
+//BYTE 1 DisciplineID
 BYTE 10 ElbowRoomID
 BYTE 00 00
 
@@ -46,9 +38,7 @@ BYTE 00 00
 ALIGN 4
 
 KnightSkillList:
-BYTE 1 ProvokeID
-// BYTE 1 SlowBurnID
-BYTE 10 NaturalCoverID
+BYTE 1 SturdyStanceID
 BYTE 00 00
 ALIGN 4
 
@@ -67,8 +57,7 @@ BYTE 00 00
 ALIGN 4
 
 MercenarySkillList:
-BYTE 1 RallyStrID
-BYTE 10 SealSpdID
+BYTE 1 SteadyStanceID
 BYTE 00 00
 ALIGN 4
 
@@ -311,9 +300,6 @@ BYTE 00 00
 ALIGN 4
 
 NecromancerSkillList:
-BYTE 255 MaleficAuraID
-BYTE 10 AnathemaID
-BYTE 20 TomefaireID
 BYTE 00 00
 ALIGN 4
 

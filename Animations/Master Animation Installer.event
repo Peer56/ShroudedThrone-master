@@ -11,19 +11,41 @@
 
 //////////////Installed animations go here:
 
-#include "Yetizerker Installer.event"
-#include "SoldierLance Installer.event"
-#include "SoldierDisarmed Installer.event"
-#include "MSniperBow Installer.event"
-#include "MSniperUna Installer.event"
-#include "FSniperBow Installer.event"
-#include "FSniperUna Installer.event"
-#include "PhantomAxe Installer.event"
-#include "PhantomHax Installer.event"
-#include "PhantomUna Installer.event"
-#include "CyrusSword Installer.event"
-#include "CyrusKnife Installer.event"
-#include "CyrusUna Installer.event"
+#include "Soldier/SoldierLance Installer.event"
+#include "Soldier/SoldierDisarmed Installer.event"
 
-//
+#include "Sniper/MSniperBow Installer.event"
+#include "Sniper/MSniperUna Installer.event"
+
+#include "Sniper/FSniperBow Installer.event"
+#include "Sniper/FSniperUna Installer.event"
+
+#include "Phantom/PhantomAxe Installer.event"
+#include "Phantom/PhantomHax Installer.event"
+#include "Phantom/PhantomUna Installer.event"
+
+#include "CyrusT1/CyrusSword Installer.event"
+#include "CyrusT1/CyrusKnife Installer.event"
+#include "CyrusT1/CyrusUna Installer.event"
+
+#include "Cavalier/Sword Installer.event"
+#include "Cavalier/Lance Installer.event"
+#include "Cavalier/Axe Installer.event"
+#include "Cavalier/Handaxe Installer.event"
+#include "Cavalier/Unarmed Installer.event"
+
+#include "Halberdier/HalberdierLnc Installer.event"
+#include "Halberdier/HalberdierUna Installer.event"
+
+#include "AlainT1/AlainLnc Installer.event"
+#include "AlainT1/AlainUna Installer.event"
+
+#include "KierraT1/KierraStf Installer.event"
+#include "KierraT1/KierraUna Installer.event"
+
+#include "Fighter/FighterAxe Installer.event"
+#include "Fighter/FighterHax Installer.event"
+#include "Fighter/FighterUna Installer.event"
+
+//Include Animation Pointers
 #include BattleAnimPointers.event

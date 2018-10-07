@@ -1,0 +1,37 @@
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C+8; POIN cardPaletteLocation 0 cardLocation; POP"
+
+ALIGN 4
+LegionnairePortrait:
+#incext png2dmp "Legionnaire.png" --lz77
+LegionnairePortraitPalette:
+#incext png2dmp "Legionnaire.png" --palette-only
+
+ALIGN 4
+AxeCavalierPortrait:
+#incext png2dmp "AxeCavalier.png" --lz77
+AxeCavalierPortraitPalette:
+#incext png2dmp "AxeCavalier.png" --palette-only
+
+ALIGN 4
+SwordCavalierPortrait:
+#incext png2dmp "SwordCavalier.png" --lz77
+SwordCavalierPortraitPalette:
+#incext png2dmp "SwordCavalier.png" --palette-only
+
+ALIGN 4
+LanceCavalierPortrait:
+#incext png2dmp "LanceCavalier.png" --lz77
+LanceCavalierPortraitPalette:
+#incext png2dmp "LanceCavalier.png" --palette-only
+
+ALIGN 4
+HalberdierPortrait:
+#incext png2dmp "Halberdier.png" --lz77
+HalberdierPortraitPalette:
+#incext png2dmp "Halberdier.png" --palette-only
+
+setCardEntry(LegionnaireCard,LegionnairePortrait,LegionnairePortraitPalette)
+setCardEntry(AxeCavalierCard,AxeCavalierPortrait,AxeCavalierPortraitPalette)
+setCardEntry(SwordCavalierCard,SwordCavalierPortrait,SwordCavalierPortraitPalette)
+setCardEntry(LanceCavalierCard,LanceCavalierPortrait,LanceCavalierPortraitPalette)
+setCardEntry(HalberdierCard,HalberdierPortrait,HalberdierPortraitPalette)

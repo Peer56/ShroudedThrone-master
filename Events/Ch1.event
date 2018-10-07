@@ -1,0 +1,142 @@
+#include EAstdlib.event
+
+EventPointerTable(0x07,ThisChapter)
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Kierra KierraLord 0x0 Level(1,Ally,0) [1,4] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
+UNIT Cyrus CyrusLord 0x0 Level(1,Ally,0) [2,5] 0x0 0x0 0x0 0x0 [Shiv,Lockpick] NoAI
+UNIT
+
+Bad: 
+UNIT AlainCH1 EphraimLord 0x0 Level(1,Enemy,0) [13,11] 0x0 0x0 0x0 0x0 [Fauchard] AttackInRangeAI
+UNIT GenericCH1 Fighter AlainCH1 Level(1,Enemy,0) [11,5] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT GenericCH1 Mercenary AlainCH1 Level(1,Enemy,0) [1,8] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT GenericCH1 Fighter AlainCH1 Level(1,Enemy,0) [5,12] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT GenericCH1 Myrmidon AlainCH1 Level(1,Enemy,0) [14,6] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT GenericCH1 SwordCavalier AlainCH1 Level(1,Enemy,0) [17,4] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT GenericCH1 Fighter AlainCH1 Level(1,Enemy,0) [6,2] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT GenericCH1 Soldier AlainCH1 Level(1,Enemy,0) [1,13] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT GenericCH1 AxeCavalier AlainCH1 Level(1,Enemy,0) [15,11] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
+UNIT GenericCH1 Mercenary AlainCH1 Level(1,Enemy,0) [9,10] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
+UNIT GenericCH1 Mercenary AlainCH1 Level(1,Enemy,0) [11,13] 0x0 0x0 0x0 0x0 [IronSword,Vulnerary] AttackInRangeAI
+UNIT
+
+GalahadUnit:
+UNIT GalahadCH1 LancePaladin AlainCH1 Level(5,Enemy,1) [0,0] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT
+
+//Turn Events
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+//Character Events
+CharacterBasedEvents:
+END_MAIN
+
+//Location Events
+LocationBasedEvents:
+Raid(0xA,TopLeftRaid,1,3)
+Raid(0xB,TopRightRaid,13,4)
+Raid(0xC,BottomLeftRaid,3,10)
+Raid(0xD,BottomRightRaid,12,9)
+Seize(1,4) //DEBUG
+END_MAIN
+
+//Misc Events
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AFEV 0xE VictoryCheck 0xA
+AFEV 0xE VictoryCheck 0xB
+AFEV 0xE VictoryCheck 0xC
+AFEV 0xE VictoryCheck 0xD
+END_MAIN
+
+//
+Dunno:
+END_MAIN
+
+//
+Tutorial:
+END_MAIN
+
+//Trap Data
+TrapData:
+ENDTRAP
+
+////Raid Villages////
+
+ALIGN 4
+TopLeftRaid:
+CHECK_ACTIVE
+SVAL 0x1 0x1
+BEQ 0x2 0x1 0xC
+GOTO 0x3
+LABEL 0x2
+//text here
+LABEL 0x3
+GiveItemToCharacter(IronSword,Cyrus)
+TileChange(0,2)
+ENDA
+
+ALIGN 4
+TopRightRaid:
+GiveGold(500)
+TileChange(12,3)
+NoFade
+ENDA
+
+ALIGN 4
+BottomLeftRaid:
+GiveItemToCurrent(Vulnerary)
+TileChange(2,9)
+NoFade
+ENDA
+
+ALIGN 4
+BottomRightRaid:
+GiveGold(1000)
+TileChange(11,8)
+NoFade
+ENDA
+
+VictoryCheck:
+CHECK_EVENTID 0xA
+BEQ 0x1 0x0 0xC
+CHECK_EVENTID 0xB
+BEQ 0x1 0x0 0xC
+CHECK_EVENTID 0xC
+BEQ 0x1 0x0 0xC
+CHECK_EVENTID 0xD
+BEQ 0x1 0x0 0xC
+CALL EndingScene
+LABEL 0x1
+ENUF 0xE
+NoFade
+ENDA
+
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Units
+ENUN
+LOAD1 0x1 Bad
+ENUN
+ENDA
+
+EndingScene:
+MNC2 0x1
+NoFade
+ENDA 

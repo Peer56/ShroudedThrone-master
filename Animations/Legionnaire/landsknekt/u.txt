@@ -1,0 +1,88 @@
+#######################################################
+#0B Landsknekt@001F Item
+#
+#When importing to FEEditorAdv delete # and after each line.
+#######################################################
+/// - Mode 1               #Melee Animation
+C02                               #Start of dodge
+1 p- u_000.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- u_001.png
+1 p- u_002.png
+C01                               #NOP
+3 p- u_003.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 3               #Melee Critical Animation
+C02                               #Start of dodge
+1 p- u_004.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- u_005.png
+1 p- u_006.png
+C01                               #NOP
+3 p- u_007.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 5               #Ranged Animation 
+C02                               #Start of dodge
+1 p- u_008.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- u_009.png
+1 p- u_010.png
+C01                               #NOP
+3 p- u_011.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 6               #Ranged Critical Animation
+C02                               #Start of dodge
+1 p- u_012.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- u_013.png
+1 p- u_014.png
+C01                               #NOP
+3 p- u_015.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 7               #Dodge Melee Attack
+C02                               #Start of dodge
+1 p- u_016.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- u_017.png
+1 p- u_018.png
+C01                               #NOP
+3 p- u_019.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 8               #Dodge Ranged Attack
+C02                               #Start of dodge
+1 p- u_020.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- u_021.png
+1 p- u_022.png
+C01                               #NOP
+3 p- u_023.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 9               #Equiped with Melee Weapon
+1 p- u_024.png
+C01                               #NOP
+~~~
+/// - Mode 10               #standing motions?
+1 p- u_025.png
+C01                               #NOP
+~~~
+/// - Mode 11               #Equiped with Ranged weapon
+1 p- u_026.png
+C01                               #NOP
+~~~
+/// - Mode 12               #Attack Missed Animation
+C02                               #Start of dodge
+1 p- u_027.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+3 p- u_028.png
+1 p- u_029.png
+C01                               #NOP
+3 p- u_030.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - End of animation

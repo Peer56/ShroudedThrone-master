@@ -1,0 +1,128 @@
+#include EAstdlib.event
+
+EventPointerTable(0x0D,ThisChapter)
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Kierra KierraLord 0x0 Level(1,Ally,0) [14,3] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
+UNIT Cyrus CyrusLord 0x0 Level(1,Ally,0) [15,4] 0x0 0x0 0x0 0x0 [Rapier,Vulnerary] NoAI
+UNIT
+
+BadMain:
+UNIT Walcher LanceCavalier 0x0 Level(4,Enemy,0) [2,17] 0x2 0x0 0x0 0x0 [Javelin] AttackInRangeAI
+UNIT GenericCH3 Soldier Walcher Level(3,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT GenericCH3 Fighter Walcher Level(2,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT GenericCH3 ArmorKnight Walcher Level(2,Enemy,1) [2,13] 0x0 0x0 0x0 0x0 [IronSword,Javelin] PursueWithoutHeedAI
+UNIT GenericCH3 ArmorKnight Walcher Level(3,Enemy,1) [3,13] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT GenericCH3 Mage Walcher Level(2,Enemy,1) [0,14] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+UNIT GenericCH3 Mage Walcher Level(3,Enemy,1) [5,16] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
+UNIT GenericCH3 Myrmidon Walcher Level(3,Enemy,1) [0,4] 0x0 0x0 0x0 0x0 [KillingEdge] PursueWithoutHeedAI
+UNIT GenericCH3 Archer Walcher Level(3,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT GenericCH3 Mercenary Walcher Level(3,Enemy,1) [1,2] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
+UNIT
+
+Allies:
+UNIT CaptainCH3 Halberdier 0x0 Level(5,NPC,0) [6,5] 0x0 0x0 0x0 0x0 [SteelLance,ShortSpear,0x7C] NeverMoveAI
+UNIT AllyCH3 ArmorKnight CaptainCH3 Level(5,NPC,1) [7,4] 0x0 0x0 0x0 0x0 [SteelSword] GuardTileAI
+UNIT AllyCH3 AxeCavalier CaptainCH3 Level(5,NPC,1) [7,6] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
+UNIT AllyCH3 ArmorKnight CaptainCH3 Level(5,NPC,1) [11,13] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] NeverMoveAI
+UNIT AllyCH3 Mercenary CaptainCH3 Level(5,NPC,1) [12,14] 0x0 0x0 0x0 0x0 [KillingEdge] NeverMoveAI
+UNIT AllyCH3 Myrmidon CaptainCH3 Level(5,NPC,1) [10,10] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
+UNIT AllyCH3 Priest CaptainCH3 Level(5,NPC,1) [13,5] 0x0 0x0 0x0 0x0 [Physic] HealUnits
+UNIT AllyCH3 Ranger CaptainCH3 Level(1,NPC,1) [7,2] 0x0 0x0 0x0 0x0 [IronBow,Longbow] AttackInRangeAI
+UNIT AllyCH3 Archer CaptainCH3 Level(5,NPC,1) [8,10] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT
+
+
+BossReinforcements:
+UNIT GenericCH3 SwordCavalier Walcher Level(3,Enemy,1) [1,16] 0x0 0x0 0x0 0x0 [SteelSword] MoveWithLeaderAI
+UNIT GenericCH3 AxeCavalier Walcher Level(3,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [IronAxe] MoveWithLeaderAI
+UNIT GenericCH3 Troubadour Walcher Level(3,Enemy,1) [1,18] 0x0 0x0 0x0 0x0 [Mend] HealUnits
+UNIT
+
+OctaviusUnit:
+UNIT Octavius Transporter Kierra Level(1,Ally,0) [8,0] 0x0 0x0 0x1 REDA15R2 [IronBow,SteelBow,Vulnerary] NoAI
+UNIT
+
+KoltonUnit:
+UNIT Kolton Soldier Kierra Level(3,Ally,0) [16,3] 0x0 0x0 0x0 0x0 [IronLance,Horseslayer,Vulnerary] NoAI
+UNIT
+
+//Turn Events
+TurnBasedEvents:
+TURN 0xC LoadBossReinforcements [3,3] 0x0 
+TURN 0xD EndingScene [15,15] 0x0 
+TURN 0xE LoadKolton [1,1] 0x0
+END_MAIN
+
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+//Character Events
+CharacterBasedEvents:
+END_MAIN
+
+//Location Events
+LocationBasedEvents:
+ChestMoneyEventID(0xA,500,18,17)
+END_MAIN
+
+//Misc Events
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AFEV 0xB LoreChest 0xA
+END_MAIN
+
+//
+Dunno:
+END_MAIN
+
+//
+Tutorial:
+END_MAIN
+
+//Trap Data
+TrapData:
+BLST [7,12] 0x36
+ENDTRAP
+
+ALIGN 4
+
+LoreChest:
+ENDA
+
+LoadKolton:
+LOAD1 0x1 KoltonUnit
+ENUN
+ENDA
+
+LoadBossReinforcements:
+CAM1 [7,3]
+LOAD1 0x1 BossReinforcements
+ENUN
+ENDA
+
+BeginningScene:
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 Allies
+ENUN
+LOAD1 0x1 BadMain
+ENUN
+LOAD1 0x1 OctaviusUnit
+ENUN
+ENDA
+
+EndingScene:
+MNC2 0x3
+NoFade
+ENDA 

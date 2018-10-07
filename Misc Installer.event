@@ -1,0 +1,68 @@
+//Phantom Stuff
+//Inventory
+PUSH
+  ORG $7AEF8
+  BYTE 0x86
+  ORG $7AEF4
+  BYTE 0x86
+  ORG $7AEE4
+  BYTE 0x86
+  ORG $7AECA
+  BYTE 0x86
+  ORG $7AEA8
+  BYTE 0x86
+  ORG $7AEBC
+  BYTE 0x86
+  ORG $7AED6
+  BYTE 0x86
+POP
+
+//Kierra Phantom Character ID
+PUSH
+ORG $95F5A4
+BYTE $01 $02
+POP
+
+//Disable FE8 Skills
+PUSH
+  ORG $16C94 //Slayer  
+  BYTE 0x00
+  ORG $16C98
+  BYTE 0x00
+  ORG $2B346 //Great Shield
+  BYTE 0x00
+  ORG $2B34A
+  BYTE 0x00
+  ORG $2B226 //Sure Strike
+  BYTE 0x00
+  ORG $2B22A
+  BYTE 0x00
+  ORG $2B2AA //Pierce
+  BYTE 0x00
+  ORG $2B2AE
+  BYTE 0x00
+POP
+
+//Vulnerary Recovery Amount
+//PUSH
+//  ORG $2FEC6
+//  BYTE 0xA
+//POP
+
+//Bypass Ch5x Hardcoded Stuff
+PUSH
+ORG $24DF2 //show gold in ch5x
+SHORT 0
+ORG $3164F //allow Supply on prep screen in ch5x
+BYTE 0xE0
+ORG $3327B
+BYTE 0xE0
+POP
+
+//Allows MNC2 To jump to any chapter ID.
+ORG 0xBD070
+SHORT 0xE0B8
+ORG 0x897B2
+SHORT 0 0
+ORG 0x897C4
+SHORT 0x200E 0x5620

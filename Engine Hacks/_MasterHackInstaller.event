@@ -58,9 +58,6 @@ ORG FreeSpaceBLRange //defined in custom definitions
 #undef inBLRange
 POP
 
-//Raid
-#include "Raid/Raid.event"
-
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
 //start of Free space
 
@@ -90,9 +87,11 @@ POP
 
   //Modular Stat Screen
   #include "ModularStatScreen.event"
-
+  
+  /*
   //Stat Screens palette by allegiance
-  // #include "StatScreenAllegiance.event"
+  #include "StatScreenAllegiance.event"
+  */
 
   //Allow Supply to be used in Prologue:
   PUSH
@@ -103,6 +102,16 @@ POP
   SHORT 0
   POP
 
+  /*
+  //Weapon Rank display
+  PUSH
+  ORG $A00EB8
+  #incbin "FE8_weaponranks_fix.dmp"
+  ORG $889F8
+  BYTE $B8 $0E $A0 $08
+  POP
+  */
+  
   //Send list of items in Slot 1 to convoy
   SendToConvoy:
   #incbin "ASM/sendToConvoyASMC.dmp"
@@ -149,7 +158,21 @@ POP
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
   // #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
+  
+  //Raid
+  ALIGN 4
+  #include "ASM/Raid/Raid.event"
 
+  //Summon Experience
+  ALIGN 4
+  #include "ASM/SummonEXP/Summon.event"
+  
+  //Phantom Axe
+  ALIGN 4
+  #inctext lyn "ASM/PhantomAxe/PhantomAxe.elf" "ASM/PhantomAxe/Definitions.elf"
+  PhantomAxeLink:
+  BYTE PhantomAxe
+  
 ALIGN 4
 
 
