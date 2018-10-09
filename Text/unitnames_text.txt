@@ -19,6 +19,9 @@ Octavius[X]
 ## NameKolton
 Kolton[X]
 
+## NameLeonidas
+Leonidas[X]
+
 ## NameGulfrum
 Gulfrum[X]
 
@@ -27,9 +30,6 @@ Spencer[X]
 
 ## NameWalcher
 Walcher[X]
-
-## NameCaptain
-Captain[X]
 
 ## NameMilitia
 Militia[X]
@@ -66,6 +66,9 @@ This is a placeholder.[X]
 ## DescKolton
 This is a placeholder.[X]
 
+## DescLeonidas
+This is a placeholder.[X]
+
 ## DescGulfrum
 This is a placeholder.[X]
 
@@ -73,9 +76,6 @@ This is a placeholder.[X]
 This is a placeholder.[X]
 
 ## DescWalcher
-This is a placeholder.[X]
-
-## DescCaptain
 This is a placeholder.[X]
 
 ## DescMilitia

@@ -32,15 +32,15 @@ UNIT GenericCH3 Mercenary Walcher Level(3,Enemy,1) [1,2] 0x0 0x0 0x0 0x0 [IronSw
 UNIT
 
 Allies:
-UNIT CaptainCH3 Halberdier 0x0 Level(5,NPC,0) [6,5] 0x0 0x0 0x0 0x0 [SteelLance,ShortSpear,0x7C] NeverMoveAI
-UNIT AllyCH3 ArmorKnight CaptainCH3 Level(5,NPC,1) [7,4] 0x0 0x0 0x0 0x0 [SteelSword] GuardTileAI
-UNIT AllyCH3 AxeCavalier CaptainCH3 Level(5,NPC,1) [7,6] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
-UNIT AllyCH3 ArmorKnight CaptainCH3 Level(5,NPC,1) [11,13] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] NeverMoveAI
-UNIT AllyCH3 Mercenary CaptainCH3 Level(5,NPC,1) [12,14] 0x0 0x0 0x0 0x0 [KillingEdge] NeverMoveAI
-UNIT AllyCH3 Myrmidon CaptainCH3 Level(5,NPC,1) [10,10] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
-UNIT AllyCH3 Priest CaptainCH3 Level(5,NPC,1) [13,5] 0x0 0x0 0x0 0x0 [Physic] HealUnits
-UNIT AllyCH3 Ranger CaptainCH3 Level(1,NPC,1) [7,2] 0x0 0x0 0x0 0x0 [IronBow,Longbow] AttackInRangeAI
-UNIT AllyCH3 Archer CaptainCH3 Level(5,NPC,1) [8,10] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT LeonidasCH3 Halberdier 0x0 Level(5,NPC,0) [6,5] 0x0 0x0 0x0 0x0 [SteelLance,ShortSpear,IronRune] NeverMoveAI
+UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(5,NPC,1) [7,4] 0x0 0x0 0x0 0x0 [SteelSword] GuardTileAI
+UNIT AllyCH3 AxeCavalier LeonidasCH3 Level(5,NPC,1) [7,6] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
+UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(5,NPC,1) [11,13] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] NeverMoveAI
+UNIT AllyCH3 Mercenary LeonidasCH3 Level(5,NPC,1) [12,14] 0x0 0x0 0x0 0x0 [KillingEdge] NeverMoveAI
+UNIT AllyCH3 Myrmidon LeonidasCH3 Level(5,NPC,1) [10,10] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
+UNIT AllyCH3 Priest LeonidasCH3 Level(5,NPC,1) [13,5] 0x0 0x0 0x0 0x0 [Physic] HealUnits
+UNIT AllyCH3 Ranger LeonidasCH3 Level(1,NPC,1) [7,2] 0x0 0x0 0x0 0x0 [IronBow,Longbow] AttackInRangeAI
+UNIT AllyCH3 Archer LeonidasCH3 Level(5,NPC,1) [8,10] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
 UNIT
 
 

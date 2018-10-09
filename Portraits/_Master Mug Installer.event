@@ -36,9 +36,9 @@ Alain_Mug:
 setMugEntry(0x14, Alain_Mug, 2,5,3,3)
 
 ALIGN 4
-Captain_Mug:
-#incext PortraitFormatter "CaptainMug.png"
-setMugEntry(0x2F, Captain_Mug, 2,5,3,3)
+Leonidas_Mug:
+#incext PortraitFormatter "LeonidasMug.png"
+setMugEntry(0x2F, Leonidas_Mug, 3,5,3,3)
 
 ALIGN 4
 Spencer_Mug:

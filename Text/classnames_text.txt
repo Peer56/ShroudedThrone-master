@@ -29,6 +29,13 @@ Armor Knight[X]
 Halberdier[X]
 
 ## DescHalberdier
-Halberdier[X]
+placeholder[X]
+
+## NameMerchant
+Merchant[X]
+
+## DescMerchant
+placeholder[X]
+
 
 

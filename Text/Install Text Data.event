@@ -1027,6 +1027,22 @@ TxtData0x9de:
 #incext ParseFile "_textentries\0x9de.txt"
 setText(0x9de,TxtData0x9de)
 
+TxtData0x9df:
+#incext ParseFile "_textentries\0x9df.txt"
+setText(0x9df,TxtData0x9df)
+
+TxtData0x9e0:
+#incext ParseFile "_textentries\0x9e0.txt"
+setText(0x9e0,TxtData0x9e0)
+
+TxtData0x9e1:
+#incext ParseFile "_textentries\0x9e1.txt"
+setText(0x9e1,TxtData0x9e1)
+
+TxtData0x9e2:
+#incext ParseFile "_textentries\0x9e2.txt"
+setText(0x9e2,TxtData0x9e2)
+
 TxtData0x04EE:
 #incext ParseFile "_textentries\0x04EE.txt"
 setText(0x04EE,TxtData0x04EE)

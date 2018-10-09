@@ -31,7 +31,7 @@
 #define GalahadCH1 0x46
 #define Spencer 0x47
 #define Walcher 0x48
-#define CaptainCH3 0x49
+#define LeonidasCH3 0x49
 
 #define GenericCH1 0x6E
 #define GenericCH2 0x6F
@@ -63,6 +63,7 @@
 #define PhantomAxe BattleAxe
 #define Fauchard Reginleif
 #define Shiv Rapier
+#define IronRune 0x7C
 
 //Other
 #define Large 0x02 //32x32

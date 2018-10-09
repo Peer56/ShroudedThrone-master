@@ -15,3 +15,9 @@ Fauchard[X]
 
 ## DescFauchard
 Effective against cavalry.[X]
+
+## NameIronRune
+Iron Rune[X]
+
+## DescIronRune
+Negates critical hits.[X]
