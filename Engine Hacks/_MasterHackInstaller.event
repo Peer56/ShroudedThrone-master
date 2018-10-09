@@ -173,6 +173,14 @@ POP
   PhantomAxeLink:
   BYTE PhantomAxe
   
+  //Escape/Arrive
+  ALIGN 4
+  EscapeCheck:
+  #incbin "ASM/EscapeCheck.dmp"
+  ALIGN 4
+  NewSeizeCheck:
+  #incbin "ASM/NewSeizeCheck.dmp"
+  
 ALIGN 4
 
 
@@ -197,7 +205,8 @@ ALIGN 4
     BYTE $14 //right x coord
   POP
 
-  UM_Seize
+  MenuCommand(0x67A, 0x6CC, BlueText, NewSeizeCheck|IsPointer, $8023021)
+  MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeCheck|IsPointer, $8023021)
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   // UM_Attack
   MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags

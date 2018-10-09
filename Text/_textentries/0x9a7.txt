@@ -1,3 +1,2 @@
-Mirror Stance: +4 attack[NL]
-and resistance when[NL]
-foe initiates battle.[X]
+Fierce Stance: +6 attack[NL]
+when foe initiates battle.[X]

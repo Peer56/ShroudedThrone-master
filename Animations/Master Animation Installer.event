@@ -47,5 +47,9 @@
 #include "Fighter/FighterHax Installer.event"
 #include "Fighter/FighterUna Installer.event"
 
+#include "ArmorKnight/knightlnc Installer.event"
+#include "ArmorKnight/knightswd Installer.event"
+#include "ArmorKnight/knightuna Installer.event"
+
 //Include Animation Pointers
 #include BattleAnimPointers.event

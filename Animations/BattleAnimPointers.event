@@ -36,6 +36,12 @@ HandAxeAnim(0x37)
 UnarmedAnim(0x38)
 WORD 0x0
 
+ArmorKnightAnim:
+LanceAnim(0x40)
+SwordAnim(0x41)
+UnarmedAnim(0x42)
+WORD 0x0
+
 PhantomAnim:
 AxeAnim(0x92)
 HandAxeAnim(0x93)

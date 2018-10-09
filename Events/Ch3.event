@@ -33,25 +33,25 @@ UNIT
 
 Allies:
 UNIT LeonidasCH3 Halberdier 0x0 Level(5,NPC,0) [6,5] 0x0 0x0 0x0 0x0 [SteelLance,ShortSpear,IronRune] NeverMoveAI
-UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(5,NPC,1) [7,4] 0x0 0x0 0x0 0x0 [SteelSword] GuardTileAI
-UNIT AllyCH3 AxeCavalier LeonidasCH3 Level(5,NPC,1) [7,6] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
-UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(5,NPC,1) [11,13] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] NeverMoveAI
-UNIT AllyCH3 Mercenary LeonidasCH3 Level(5,NPC,1) [12,14] 0x0 0x0 0x0 0x0 [KillingEdge] NeverMoveAI
-UNIT AllyCH3 Myrmidon LeonidasCH3 Level(5,NPC,1) [10,10] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
-UNIT AllyCH3 Priest LeonidasCH3 Level(5,NPC,1) [13,5] 0x0 0x0 0x0 0x0 [Physic] HealUnits
-UNIT AllyCH3 Ranger LeonidasCH3 Level(1,NPC,1) [7,2] 0x0 0x0 0x0 0x0 [IronBow,Longbow] AttackInRangeAI
-UNIT AllyCH3 Archer LeonidasCH3 Level(5,NPC,1) [8,10] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(4,NPC,1) [7,4] 0x0 0x0 0x0 0x0 [SteelSword] GuardTileAI
+UNIT AllyCH3 AxeCavalier LeonidasCH3 Level(4,NPC,1) [7,6] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
+UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(4,NPC,1) [11,13] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] NeverMoveAI
+UNIT AllyCH3 Mercenary LeonidasCH3 Level(4,NPC,1) [12,14] 0x0 0x0 0x0 0x0 [SteelSword] NeverMoveAI
+UNIT AllyCH3 Myrmidon LeonidasCH3 Level(4,NPC,1) [10,10] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
+UNIT AllyCH3 Priest LeonidasCH3 Level(4,NPC,1) [13,5] 0x0 0x0 0x0 0x0 [Physic] HealUnits
+UNIT AllyCH3 Ranger LeonidasCH3 Level(1,NPC,1) [7,2] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT AllyCH3 Archer LeonidasCH3 Level(4,NPC,1) [8,10] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
 UNIT
 
 
 BossReinforcements:
 UNIT GenericCH3 SwordCavalier Walcher Level(3,Enemy,1) [1,16] 0x0 0x0 0x0 0x0 [SteelSword] MoveWithLeaderAI
 UNIT GenericCH3 AxeCavalier Walcher Level(3,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [IronAxe] MoveWithLeaderAI
-UNIT GenericCH3 Troubadour Walcher Level(3,Enemy,1) [1,18] 0x0 0x0 0x0 0x0 [Mend] HealUnits
+UNIT GenericCH3 Troubadour Walcher Level(8,Enemy,1) [1,18] 0x0 0x0 0x0 0x0 [Mend] HealUnits
 UNIT
 
 OctaviusUnit:
-UNIT Octavius Transporter Kierra Level(1,Ally,0) [8,0] 0x0 0x0 0x1 REDA15R2 [IronBow,SteelBow,Vulnerary] NoAI
+UNIT Octavius Merchant Kierra Level(1,Ally,0) [8,0] 0x0 0x0 0x1 REDA15R2 [IronBow,SteelBow,Vulnerary] NoAI
 UNIT
 
 KoltonUnit:
@@ -98,17 +98,20 @@ ENDTRAP
 ALIGN 4
 
 LoreChest:
+NoFade
 ENDA
 
 LoadKolton:
 LOAD1 0x1 KoltonUnit
 ENUN
+NoFade
 ENDA
 
 LoadBossReinforcements:
 CAM1 [7,3]
 LOAD1 0x1 BossReinforcements
 ENUN
+NoFade
 ENDA
 
 BeginningScene:
@@ -120,6 +123,7 @@ LOAD1 0x1 BadMain
 ENUN
 LOAD1 0x1 OctaviusUnit
 ENUN
+NoFade
 ENDA
 
 EndingScene:

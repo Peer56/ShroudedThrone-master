@@ -57,7 +57,7 @@
 #define DreadFighter 0x53
 #define DreadFighter_F 0x54
 #define Marauder 0x55
-#define Transporter 0x56
+#define Merchant 0x56
 
 //Item Definitions
 #define PhantomAxe BattleAxe

@@ -19,17 +19,23 @@ Octavius[X]
 ## NameKolton
 Kolton[X]
 
-## NameLeonidas
-Leonidas[X]
-
 ## NameGulfrum
 Gulfrum[X]
+
+## NameEve
+Eve[X]
+
+## NameJoseph
+Joseph[X]
 
 ## NameSpencer
 Spencer[X]
 
 ## NameWalcher
 Walcher[X]
+
+## NameLeonidas
+Leonidas[X]
 
 ## NameMilitia
 Militia[X]
@@ -48,44 +54,61 @@ The kind Blood Eyed Princess of Stratus.[N]
 Determined to take back her kingdom.[X]
 
 ## DescPhantom
-This is a placeholder.[X]
+A shadow conjured from Kierra's[N]
+dark magic.[X]
 
 ## DescCyrus
 An enigmatic assassin hired to protect[N]
 Kierra. Strong-willed but quiet.[X]
 
 ## DescAlain
-This is a placeholder.[X]
+A noble and nephew of the King[NL]
+of Racrien. Wants world peace.[X]
 
 ## DescGalahad
-This is a placeholder.[X]
+Former military general of Racrien.[N]
+Protector of Alain, and his only friend.[X]
 
 ## DescOctavius
-This is a placeholder.[X]
+A traveling Stratian merchant with an eye for adventure.[N]
+Wants revenge for his hometown.[X]
 
 ## DescKolton
-This is a placeholder.[X]
-
-## DescLeonidas
-This is a placeholder.[X]
+A lazy former guard of Castle Stratus.[N]
+Wants to avenge his fallen comrades.[X]
 
 ## DescGulfrum
-This is a placeholder.[X]
+A bandit of Arcwind Peak who lost[N]
+his home. Gentle but ferocious.[X]
+
+## DescEve
+placeholder[X]
+
+## DescJoseph
+placeholder[X]
 
 ## DescSpencer
-This is a placeholder.[X]
+Leader of the bandits of Arcwind Peak.[N]
+Commanding but fair to his brothers.[X]
 
 ## DescWalcher
-This is a placeholder.[X]
+A cruel but honorable commander[N]
+of Racrien. Devotes himself to Racrien.[X]
+
+## DescLeonidas
+The captain of the small group of soldiers[N]
+in Fort Arcwind. Has a sense of justice.[X]
 
 ## DescMilitia
-This is a placeholder.[X]
+Militiamen of Wellspring Village.[X]
 
 ## DescBandit
-This is a placeholder.[X]
+Ferocious bandits of Arcwind Peak.[X]
 
 ## DescRacrien
-This is a placeholder.[X]
+Soldiers fighting for the 6 Armed[N]
+Forces of Racrien.[X]
 
 ## DescStratus
-This is a placeholder.[X]
+Soldiers fighting for the falling Kingdom[N]
+of Racrien.[X]

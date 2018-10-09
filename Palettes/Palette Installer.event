@@ -10,12 +10,15 @@ PaletteAlainLord:
 PaletteAlainCH0:
 	#incbin "./_palettes/PaletteAlainCH0.lzpal" 
 
+PaletteKoltonSoldier:
+	#incbin "./_palettes/PaletteKoltonSoldier.lzpal" 
+
 PaletteSpencer:
 	#incbin "./_palettes/PaletteSpencer.lzpal" 
 
 PaletteWalcher:
 	#incbin "./_palettes/PaletteWalcher.lzpal" 
 
-PaletteCaptain:
-	#incbin "./_palettes/PaletteCaptain.lzpal" 
+PaletteLeonidas:
+	#incbin "./_palettes/PaletteLeonidas.lzpal" 
 

@@ -2,7 +2,7 @@
 Raid Villages[X]
 
 ## ObjectiveCH2
-Kierra Arrives[X]
+Arrive[X]
 
 ## ObjectiveCH3
 Defend[X]

@@ -131,6 +131,7 @@ ENDA
 ALIGN 4
 
 BeginningScene:
+ENUT 0x21
 LOAD2 0x1 Units
 ENUN
 LOAD1 0x1 Bad

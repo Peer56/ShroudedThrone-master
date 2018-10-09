@@ -21,8 +21,14 @@ Rating[X]
 #0x904 RaidNameText
  Raid[X]
 
-#0x905 RaidDescText
+## RaidDescText
 Raid houses to get loot.[X]
+
+## EscapeName
+ Arrive[X]
+
+## EscapeDesc
+Arrive at destination.[X]
 
 ## nameCamus
 #for identity problems
