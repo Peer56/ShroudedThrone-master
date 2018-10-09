@@ -13,6 +13,9 @@ PaletteAlainCH0:
 PaletteKoltonSoldier:
 	#incbin "./_palettes/PaletteKoltonSoldier.lzpal" 
 
+PaletteKoltonHalberdier:
+	#incbin "./_palettes/PaletteKoltonHalberdier.lzpal" 
+
 PaletteSpencer:
 	#incbin "./_palettes/PaletteSpencer.lzpal" 
 
