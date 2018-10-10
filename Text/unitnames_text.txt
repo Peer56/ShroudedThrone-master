@@ -22,12 +22,6 @@ Kolton[X]
 ## NameGulfrum
 Gulfrum[X]
 
-## NameEve
-Eve[X]
-
-## NameJoseph
-Joseph[X]
-
 ## NameSpencer
 Spencer[X]
 
@@ -70,8 +64,8 @@ Former military general of Racrien.[N]
 Protector of Alain, and his only friend.[X]
 
 ## DescOctavius
-A traveling Stratian merchant with an eye for adventure.[N]
-Wants revenge for his hometown.[X]
+A Stratian merchant with an eye for[N]
+adventure. Wants revenge on Racrien.[X]
 
 ## DescKolton
 A lazy former guard of Castle Stratus.[N]
@@ -80,12 +74,6 @@ Wants to avenge his fallen comrades.[X]
 ## DescGulfrum
 A bandit of Arcwind Peak who lost[N]
 his home. Gentle but ferocious.[X]
-
-## DescEve
-placeholder[X]
-
-## DescJoseph
-placeholder[X]
 
 ## DescSpencer
 Leader of the bandits of Arcwind Peak.[N]
@@ -96,8 +84,8 @@ A cruel but honorable commander[N]
 of Racrien. Devotes himself to Racrien.[X]
 
 ## DescLeonidas
-The captain of the small group of soldiers[N]
-in Fort Arcwind. Has a sense of justice.[X]
+The captain of the soldiers in Fort[N]
+Arcwind. Has a sense of justice.[X]
 
 ## DescMilitia
 Militiamen of Wellspring Village.[X]
