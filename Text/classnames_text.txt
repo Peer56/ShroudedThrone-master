@@ -25,17 +25,25 @@ Axe Knight[X]
 ## NameArmorKnight
 Armor Knight[X]
 
+## DescSoldier
+Footsoldiers specializing in[N]
+the art of the lance.[X]
+
 ## NameHalberdier
 Halberdier[X]
 
 ## DescHalberdier
-placeholder[X]
+Veteran soldiers with unparalleled[N]
+mastery of the lance.[X]
 
 ## NameMerchant
 Merchant[X]
 
 ## DescMerchant
-placeholder[X]
+A merchant who transports goods and[N]
+supplies who uses a bow for self-defense.[X]
+
+
 
 
 
