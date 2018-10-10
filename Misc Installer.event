@@ -60,9 +60,19 @@ BYTE 0xE0
 POP
 
 //Allows MNC2 To jump to any chapter ID.
+PUSH
 ORG 0xBD070
 SHORT 0xE0B8
 ORG 0x897B2
 SHORT 0 0
 ORG 0x897C4
 SHORT 0x200E 0x5620
+POP
+
+//Skip very begining world map
+PUSH
+ORG $A39768
+EVBIT_MODIFY 0x1
+SKIPWN
+ENDA
+POP
