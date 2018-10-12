@@ -1,58 +1,52 @@
-# Prerequisites
-*.d
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Folder config file
+Desktop.ini
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# Rom Stuff
+# Windows shortcuts
+*.lnk
+
+#Rom stuff
 *.gba
 *.sav
-*.ups
+*.sgm
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# =========================
+# Operating System Files
+# =========================
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# OSX
+# =========================
 
-# Executables
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Thumbnails
+._*
 
-# Kernel Module Compile Results
-*.mod*
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
 
-ShroudedThrone.png
-ShroudedThrone.ups
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
