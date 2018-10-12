@@ -1,3 +1,6 @@
+# 0x212
+Character names start here[X]
+
 ## NameKierra
 Kierra[X]
 
@@ -21,6 +24,12 @@ Kolton[X]
 
 ## NameGulfrum
 Gulfrum[X]
+
+## NameEve
+Eve[X]
+
+## NameJoseph
+Joseph[X]
 
 ## NameSpencer
 Spencer[X]
@@ -74,6 +83,12 @@ Wants to avenge his fallen comrades.[X]
 ## DescGulfrum
 A bandit of Arcwind Peak who lost[N]
 his home. Gentle but ferocious.[X]
+
+## DescEve
+Placeholder[X]
+
+## DescJoseph
+Placeholder[X]
 
 ## DescSpencer
 Leader of the bandits of Arcwind Peak.[N]

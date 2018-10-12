@@ -2,7 +2,7 @@
 Raid Villages[X]
 
 ## ObjectiveCH2
-Arrive[X]
+ Arrive[X]
 
 ## ObjectiveCH3
 Defend[X]

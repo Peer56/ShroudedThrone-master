@@ -18,7 +18,7 @@ setMugEntry(0x4, Cyrus_Mug, 3,5,3,3)
 ALIGN 4
 Gulfrum_Mug:
 #incext PortraitFormatter "GulfrumMug.png"
-setMugEntry(0x5, Gulfrum_Mug, 3,4,3,2)
+setMugEntry(0x5, Gulfrum_Mug, 3,5,3,3)
 
 ALIGN 4
 Octavius_Mug:
@@ -34,6 +34,12 @@ ALIGN 4
 Alain_Mug:
 #incext PortraitFormatter "AlainMug.png"
 setMugEntry(0x14, Alain_Mug, 2,5,3,3)
+
+
+ALIGN 4
+Galahad_Mug:
+#incext PortraitFormatter "GalahadMug.png"
+setMugEntry(0x15, Galahad_Mug, 2,5,2,3)
 
 ALIGN 4
 Leonidas_Mug:

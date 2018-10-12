@@ -1,2 +1,2 @@
-Triangle Adept: Doubles[N]
-weapon triangle effects.[X]
+Quantum Visage: Face changes[N]
+every time it's looked at.[X]

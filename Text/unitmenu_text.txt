@@ -65,9 +65,15 @@ unit's opposite side.[X]
 Swap positions with adjacent[N]
 ally.[X]
 
+## UM_Capture
+ Capture[X]
+
+## UM_CaptureDesc
+Strike a fatal blow with reduced[N]
+stats to capture an enemy.[X]
+
 ## UM_Raid
  Raid[X]
  
 ## UM_RaidDesc
 Raid villages to get loot.[X]
- 

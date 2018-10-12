@@ -28,6 +28,18 @@ LanceAnim(0x07)
 UnarmedAnim(0x08)
 WORD 0x0
 
+MaleRangerAnim:
+LanceAnim(0x2E)
+BowAnim(0x2F)
+UnarmedAnim(0x30)
+WORD 0x0
+
+FemaleRangerAnim:
+LanceAnim(0x31)
+BowAnim(0x32)
+UnarmedAnim(0x33)
+WORD 0x0
+
 CavalierAnim:
 SwordAnim(0x34)
 LanceAnim(0x35)

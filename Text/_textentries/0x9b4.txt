@@ -1,1 +1,3 @@
-Galahad[X]
+Foresight: Avoid the damage[N]
+from enemy Critical Hits and[N]
+Skill Activations.[X]

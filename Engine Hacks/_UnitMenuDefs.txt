@@ -38,4 +38,3 @@
 #define UM_Supply     "BYTE $9C $7D $0D $08 $8F $06 $D5 $06 $04 $69 $00 $00 $65 $3F $02 $08 $00 $00 $00 $00 $B9 $3F $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
 #define UM_Wait       "BYTE $94 $7D $0D $08 $95 $06 $BF $06 $00 $6B $00 $00 $49 $F4 $04 $08 $00 $00 $00 $00 $39 $27 $02 $08 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"
 #define UM_Separator  "WORD 0 0 0 0 0 0 0 0 0"
-#define UM_Raid       "BYTE $28 $7E $0D $08 ; SHORT RaidNameText RaidDescText ; BYTE $00 $5C $00 $00 ; POIN RaidUsability|1 ; BYTE $00 $00 $00 $00 ; POIN RaidEffect|1 ; BYTE $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00 $00"

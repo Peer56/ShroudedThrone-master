@@ -76,3 +76,12 @@
 #define AxeCavalierCard 0x85
 #define LegionnaireCard 0x92
 #define HalberdierCard 0x99
+
+//Affinities
+#define AffFire 0x1
+#define AffThunder 0x2
+#define AffWind 0x3
+#define AffIce 0x4
+#define AffDark 0x5
+#define AffLight 0x6
+#define AffAnima 0x7 

@@ -1,2 +1,2 @@
-Death Blow: +6 Attack[N]
-when initiating battle.[X]
+Catch 'Em All: Grants[N]
+the user every skill.[X]

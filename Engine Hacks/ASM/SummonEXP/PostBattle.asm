@@ -19,8 +19,15 @@
     .short 0xF800
 .endm
 
+.macro SET_FUNC name, value
+    .global \name
+    .type   \name, %function
+    .set    \name, \value
+.endm
+
 .equ FindCharacter, 0x0801829C
-.equ CheckCaps, 0x80181C8
+.equ CheckCaps, 0x080181C8
+.equ Divide, 0x080D18FC
 
 .global FixSettingGrowths
 .type FixSettingGrowths, %function
@@ -126,9 +133,13 @@ lsl r0, #0x18
 asr r0, #0x18
 blh 0x08019430, r2 @ All this and before from vanilla routine
 @ r0 = ... beginning character struct of the allied allegiance byte....? Kind of useless to me.
-@ r11 has the character struct of the phantom
+push { r1 }
+cmp r0, #0x00
+beq Oof
 push { r0 }
-mov r0, r11
+@mov r0, r11
+ldr r0, =#0x03004E50
+ldr r0, [ r0 ]
 @ All I really care about here is checking if the unit is a phantom and putting in the summoner's character struct if necessary
 bl GetClass
 pop { r0 }
@@ -138,11 +149,13 @@ cmp r1, r2
 bne End2
 
 @ So it's a phantom.
+Oof: @ Or if I'm here, it didn't find the character... which is bad. Let's assume they want the summoner.
 ldr r1, =#PhantomSummonerLink
 ldrb r0, [ r1 ] @ Character ID of summoner in r0
 blh FindCharacter, r2 @ r0 now has character struct of summoner
 
 End2:
+pop { r1 }
 mov r2, r0
 ldr r1, =#0x0807ED4F
 bx r1

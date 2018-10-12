@@ -87,11 +87,9 @@ POP
 
   //Modular Stat Screen
   #include "ModularStatScreen.event"
-  
-  /*
+
   //Stat Screens palette by allegiance
-  #include "StatScreenAllegiance.event"
-  */
+  // #include "StatScreenAllegiance.event"
 
   //Allow Supply to be used in Prologue:
   PUSH
@@ -102,16 +100,6 @@ POP
   SHORT 0
   POP
 
-  /*
-  //Weapon Rank display
-  PUSH
-  ORG $A00EB8
-  #incbin "FE8_weaponranks_fix.dmp"
-  ORG $889F8
-  BYTE $B8 $0E $A0 $08
-  POP
-  */
-  
   //Send list of items in Slot 1 to convoy
   SendToConvoy:
   #incbin "ASM/sendToConvoyASMC.dmp"
@@ -158,8 +146,8 @@ POP
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
   // #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
-  
-  //Raid
+
+    //Raid
   ALIGN 4
   #include "ASM/Raid/Raid.event"
 
@@ -205,8 +193,10 @@ ALIGN 4
     BYTE $14 //right x coord
   POP
 
-  MenuCommand(0x67A, 0x6CC, BlueText, NewSeizeCheck|IsPointer, $8023021)
-  MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeCheck|IsPointer, $8023021)
+  MenuCommand(0x67A, 0x6CC, NormalText, NewSeizeCheck|IsPointer, $8023021)
+  // Seize
+  MenuCommand(EscapeName, EscapeDesc, NormalText, EscapeCheck|IsPointer, $8023021)
+  // Escape (arrive)
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   // UM_Attack
   MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags
@@ -218,6 +208,8 @@ ALIGN 4
   MenuCommand(UM_Mercy, UM_MercyDesc, NormalText, MercyUsability, MercyEffect, $22c31, $22c99)
   //gamble
   MenuCommand(UM_Gamble, UM_GambleDesc, NormalText, GambleUsability, GambleEffect, $22c31, $22c99)
+  //capture
+  MenuCommand(UM_Capture, UM_CaptureDesc, NormalText, Capture_Usability, Capture_Effect_Func, $22c31, $22c99)
   UM_Staff
   UM_Ride
   UM_Exit
@@ -236,7 +228,6 @@ ALIGN 4
   // UM_Support
   MenuCommand(0x681, 0x6ca, GreenText, 0x23d15, 0x23d65)
   UM_Visit
-  UM_Raid
   UM_Chest
   UM_Door
   UM_Armory
