@@ -1,0 +1,4 @@
+[OpenFarLeft][LoadGalahad][OpenFarRight][LoadKierra]
+[OpenFarLeft]Those eyes...![A][ClearFace]
+[OpenFarRight]Out of the way, or die.[A][ClearFace]
+[OpenFarLeft]I musn't fail! For my liege![A][X]

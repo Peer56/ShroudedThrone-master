@@ -1,1 +1,2 @@
-Zeke[X]
+Adept: Gain a consecutive attack.[N]
+(Speed % activation)[X]

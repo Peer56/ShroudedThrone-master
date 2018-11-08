@@ -1,7 +1,4 @@
-# 0x212
-Character names start here[X]
-
-## NameKierra
+# 0x212 NameKierra
 Kierra[X]
 
 ## NamePhantom
@@ -114,4 +111,4 @@ Forces of Racrien.[X]
 
 ## DescStratus
 Soldiers fighting for the falling Kingdom[N]
-of Racrien.[X]
+of Stratus.[X]

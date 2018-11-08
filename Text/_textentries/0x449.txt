@@ -1,0 +1,1 @@
+Clears fog in the selected tile's radius.[X]

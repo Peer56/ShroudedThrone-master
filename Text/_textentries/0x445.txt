@@ -1,0 +1,1 @@
+Inflicts sleep on target.[X]

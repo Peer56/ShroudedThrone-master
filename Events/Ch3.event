@@ -15,37 +15,38 @@ POIN BeginningScene EndingScene
 
 Units:
 UNIT Kierra KierraLord 0x0 Level(1,Ally,0) [14,3] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
-UNIT Cyrus CyrusLord 0x0 Level(1,Ally,0) [15,4] 0x0 0x0 0x0 0x0 [Rapier,Vulnerary] NoAI
+UNIT Cyrus CyrusLord 0x0 Level(1,Ally,0) [15,4] 0x0 0x0 0x0 0x0 [Shiv,Vulnerary] NoAI
 UNIT
 
 BadMain:
-UNIT Walcher LanceCavalier 0x0 Level(4,Enemy,0) [2,17] 0x2 0x0 0x0 0x0 [Javelin] AttackInRangeAI
-UNIT GenericCH3 Soldier Walcher Level(3,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
-UNIT GenericCH3 Fighter Walcher Level(2,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
-UNIT GenericCH3 ArmorKnight Walcher Level(2,Enemy,1) [2,13] 0x0 0x0 0x0 0x0 [IronSword,Javelin] PursueWithoutHeedAI
-UNIT GenericCH3 ArmorKnight Walcher Level(3,Enemy,1) [3,13] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT GenericCH3 Mage Walcher Level(2,Enemy,1) [0,14] 0x0 0x0 0x0 0x0 [Thunder] PursueWithoutHeedAI
-UNIT GenericCH3 Mage Walcher Level(3,Enemy,1) [5,16] 0x0 0x0 0x0 0x0 [Fire] PursueWithoutHeedAI
-UNIT GenericCH3 Myrmidon Walcher Level(3,Enemy,1) [0,4] 0x0 0x0 0x0 0x0 [KillingEdge] PursueWithoutHeedAI
-UNIT GenericCH3 Archer Walcher Level(3,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
-UNIT GenericCH3 Mercenary Walcher Level(3,Enemy,1) [1,2] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
+UNIT Walcher LanceCavalier 0x0 Level(4,Enemy,0) [2,15] 0x2 0x0 0x0 0x0 [Javelin] AttackInRangeAI
+UNIT GenericCH3 Mage Walcher Level(3,Enemy,1) [1,10] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
+UNIT GenericCH3 ArmorKnight Walcher Level(3,Enemy,1) [2,9] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT GenericCH3 ArmorKnight Walcher Level(3,Enemy,1) [3,9] 0x0 0x0 0x0 0x0 [Axereaver,Javelin] AttackInRangeAI
+UNIT GenericCH3 Mercenary Walcher Level(3,Enemy,1) [0,4] 0x0 0x0 0x0 0x0 [IronSword,Lancereaver] AttackInRangeAI
+UNIT GenericCH3 Fighter Walcher Level(4,Enemy,1) [1,6] 0x0 0x0 0x0 0x0 [Maul,HandAxe] AttackInRangeAI
+UNIT GenericCH3 Soldier Walcher Level(2,Enemy,1) [6,14] 0x0 0x0 0x0 0x0 [Ranseur] PursueWithoutHeedAI
+UNIT GenericCH3 ArmorKnight Walcher Level(3,Enemy,1) [5,12] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT GenericCH3 Mage Walcher Level(2,Enemy,1) [8,16] 0x0 0x0 0x0 0x0 [Wind] AttackInRangeAI
+UNIT GenericCH3 Valkyrie Walcher Level(5,Enemy,1) [1,18] 0x2 0x0 0x0 0x0 [Mend] HealUnits
 UNIT
 
 Allies:
-UNIT LeonidasCH3 Halberdier 0x0 Level(5,NPC,0) [6,5] 0x0 0x0 0x0 0x0 [SteelLance,Javelin,IronRune] NeverMoveAI
-UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(4,NPC,1) [7,4] 0x0 0x0 0x0 0x0 [SteelSword] GuardTileAI
-UNIT AllyCH3 AxeCavalier LeonidasCH3 Level(4,NPC,1) [7,6] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
-UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(4,NPC,1) [11,13] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] NeverMoveAI
-UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(4,NPC,1) [12,14] 0x0 0x0 0x0 0x0 [KillingEdge] NeverMoveAI
-UNIT AllyCH3 Myrmidon LeonidasCH3 Level(4,NPC,1) [10,10] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
-UNIT AllyCH3 Ranger LeonidasCH3 Level(1,NPC,1) [7,2] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
-UNIT AllyCH3 Archer LeonidasCH3 Level(1,NPC,1) [8,10] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT LeonidasCH3 Halberdier 0x0 Level(5,NPC,0) [5,5] 0x0 0x0 0x0 0x0 [SteelLance,Javelin,IronGuard] NeverMoveAI
+UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(4,NPC,1) [6,4] 0x0 0x0 0x0 0x0 [SteelSword] GuardTileAI
+UNIT AllyCH3 AxeCavalier LeonidasCH3 Level(4,NPC,1) [6,6] 0x0 0x0 0x0 0x0 [SteelAxe,HandAxe] GuardTileAI
+UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(4,NPC,1) [11,12] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] NeverMoveAI
+UNIT AllyCH3 ArmorKnight LeonidasCH3 Level(4,NPC,1) [10,11] 0x0 0x0 0x0 0x0 [IronSword,Vulnerary] NeverMoveAI
+UNIT AllyCH3 Myrmidon LeonidasCH3 Level(4,NPC,1) [9,9] 0x0 0x0 0x0 0x0 [IronSword,Lancereaver] AttackInRangeAI
+UNIT AllyCH3 Ranger LeonidasCH3 Level(1,NPC,1) [8,5] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT AllyCH3 Archer LeonidasCH3 Level(1,NPC,1) [11,11] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT AllyCH3 Priest LeonidasCH3 Level(1,NPC,1) [13,15] 0x0 0x0 0x0 0x0 [Physic] HealUnits
 UNIT
 
 BossReinforcements:
-UNIT GenericCH3 SwordCavalier Walcher Level(3,Enemy,1) [1,16] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
-UNIT GenericCH3 AxeCavalier Walcher Level(3,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
-UNIT GenericCH3 Valkyrie Walcher Level(5,Enemy,1) [1,18] 0x2 0x0 0x0 0x0 [Mend] HealUnits
+//UNIT GenericCH3 SwordCavalier Walcher Level(3,Enemy,1) [1,16] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+//UNIT GenericCH3 AxeCavalier Walcher Level(3,Enemy,1) [3,18] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+//UNIT GenericCH3 Valkyrie Walcher Level(5,Enemy,1) [1,18] 0x2 0x0 0x0 0x0 [Mend] HealUnits
 UNIT
 
 Reinforcements:
@@ -64,7 +65,7 @@ UNIT Octavius Merchant Kierra Level(1,Ally,0) [8,0] 0x0 0x0 0x1 REDA15R2 [IronBo
 UNIT
 
 KoltonUnit:
-UNIT Kolton Soldier Kierra Level(3,Ally,0) [16,3] 0x0 0x0 0x0 0x0 [IronLance,Horseslayer,Vulnerary] NoAI
+UNIT Kolton Soldier Kierra Level(3,Ally,0) [16,3] 0x0 0x0 0x0 0x0 [IronLance,Partisan,Vulnerary] NoAI
 UNIT
 
 //Turn Events
@@ -82,7 +83,7 @@ END_MAIN
 
 //Location Events
 LocationBasedEvents:
-ChestMoneyEventID(0xA,500,18,17)
+ChestMoneyEventID(0xA,500,16,14)
 END_MAIN
 
 //Misc Events
@@ -101,7 +102,6 @@ END_MAIN
 
 //Trap Data
 TrapData:
-BLST [7,12] 0x36
 ENDTRAP
 
 ALIGN 4
@@ -136,7 +136,6 @@ NoFade
 ENDA
 
 EndingScene:
-//this patch ends here etc text
-MNTS 0x0
+MNC2 0x3
 NoFade
 ENDA 

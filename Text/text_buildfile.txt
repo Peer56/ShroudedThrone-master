@@ -16,24 +16,21 @@ Wgt[X]
 # 0x0503
 Mgt[X]
 
-#include "chapternames.txt"
-#include "unitnames_text.txt"
-
 #0x3A LearnedSkillText
 #first text ID in the free block
 Learned  [X]
 
 #include "statscreen_text.txt"
 #include "unitmenu_text.txt"
+#include "chapternames.txt"
+#include "unitnames_text.txt"
+#include "itemnames_text.txt"
+#include "classnames_text.txt"
+#include "objectives.txt"
+#include "deathquotes.txt"
 
 #0x903 RatingsTID
 Rating[X]
-
-## EscapeName
- Arrive[X]
-
-## EscapeDesc
-Arrive at destination.[X]
 
 ## nameCamus
 #for identity problems
@@ -46,7 +43,5 @@ Sirius[X]
 Zeke[X]
 
 #include "skilldesc_text.txt"
-#include "itemnames_text.txt"
-#include "classnames_text.txt"
-#include "objectives.txt"
+#include "chapterhelptext.txt"
 

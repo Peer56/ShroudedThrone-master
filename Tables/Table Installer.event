@@ -2,6 +2,8 @@
 
 #include "Table Definitions.txt"
 
+#include "FE8 Nightmare modules\Escape Quote Editor.event"
+
 #include "FE8 Nightmare modules\FE8 Class Skill Editor.event"
 
 #include "FE8 Nightmare modules\FE8 Level Up Skill Editor.event"

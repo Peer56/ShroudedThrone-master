@@ -1,0 +1,298 @@
+#define FreeSpace 0xfe4000
+#define FreeSpaceBLRange 0x1c1ec0
+
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+
+#ifndef ItemTable
+  #define ItemTable 0x809B10
+#endif
+#ifndef DebuffTable
+    #define DebuffTable 0x203F100
+#endif
+
+#define LunarBrace MoonBracelet
+#define SolarBrace SunBracelet
+
+#include "Engine Hacks/Skill System/skill_definitions.event"
+
+// #define __DEBUG__ // Uncomment to get the Debug startup menu :p
+
+//Custom Macros
+#ifdef _FE8_ 
+#define GiveItemToCharacter(item,character) "SVAL 0x3 item; GIVEITEMTO character"
+#define GiveItemToActive(item) "SVAL 0x3 item; GIVEITEMTO 0xFFFF"
+#define GiveGold(money) "SVAL 0x3 money; GIVEITEMTOMAIN 0"
+#define ChestMoneyEventID(eventid,amountOfMoney,chestX,chestY) "CHES eventid 0x76+amountOfMoney*0x10000 [chestX,chestY] 0x12"
+#define Raid(EventID,Pointer,X,Y) "LOCA EventID Pointer [X,Y] 0x21"
+#define TileChange(X,Y) "SETVAL 0xB Coords(X,Y) ; TILECHANGE 0xFFFF
+#define Coords(xcoord,ycoord) "(ycoord<<16)|xcoord"
+#endif
+
+//Character Definitions
+#define Kierra 0x1
+#define KierraPhantom 0x2
+#define Cyrus 0x3
+#define Octavius 0x4
+#define Kolton 0x5
+#define Gulfrum 0x6
+#define Eve 0x7
+//
+#define Alain 0xF
+#define Galahad 0x10
+
+#define AlainCH1 0x45
+#define GalahadCH1 0x46
+#define Spencer 0x47
+#define Walcher 0x48
+#define LeonidasCH3 0x49
+
+#define GenericCH1 0x6E
+#define GenericCH2 0x6F
+#define GenericCH3 0x70
+#define AllyCH3 0x71
+
+//Class Definitions
+#define AlainLord 0x1 
+#define KierraLord 0x2
+#define AlainPromo 0x3
+#define KierraPromo 0x4
+#define LanceCavalier 0x5
+#define LancePaladin 0x6
+#define SwordCavalier 0x7
+#define SwordPaladin 0x8
+#define AxeCavalier 0x9
+#define AxePaladin 0xA
+#define ArmorKnight 0xB
+#define CyrusLord 0x4F
+#define CyrusPromo 0x50
+#define Phantom 0x51
+#define Halberdier 0x52
+#define DreadFighter 0x53
+#define DreadFighter_F 0x54
+#define Merchant 0x56
+
+//Item Definitions
+#define IronSword 0x01
+#define SteelSword 0x02
+#define SilverSword 0x03
+#define KillerSword 0x04
+#define IronDagger 0x05
+#define SteelDagger 0x06
+#define SilverDagger 0x07
+#define KillerDagger 0x08
+//#define Rapier 0x09
+//#define ManiKatti 0x0A
+#define BraveSword 0x0B
+#define Katana 0x0C
+#define Longsword 0x0D
+#define Estoc 0x0E
+#define Glaive 0x0F
+#define LightBrand 0x10
+#define DarkBrand 0x11
+#define Lancereaver 0x12
+#define Zweihander 0x13
+#define IronLance 0x14
+#define SteelLance 0x15
+#define SilverLance 0x16
+#define Ranseur 0x17
+#define Harpoon 0x18
+#define BraveLance 0x19
+#define KillerLance 0x1A
+#define Partisan 0x1B
+#define Javelin 0x1C
+#define LongSpear 0x1D
+#define Axereaver 0x1E
+#define IronAxe 0x1F
+#define SteelAxe 0x20
+#define SilverAxe 0x21
+#define Masakari 0x22
+#define BraveAxe 0x23
+#define KillerAxe 0x24
+#define Halberd 0x25
+#define Maul 0x26
+#define Berdeche 0x27
+#define HandAxe 0x28
+#define Tomahawk 0x29
+#define Swordreaver 0x2A
+#define Poleaxe 0x2B
+#define ShortAxe 0x2C
+#define IronBow 0x2D
+#define SteelBow 0x2E
+#define SilverBow 0x2F
+#define GreatBow 0x30
+#define KillerBow 0x31
+#define BraveBow 0x32
+#define CleaveBow 0x33
+#define HuntingBow 0x34
+#define Arrowspate 0x35
+#define Stonehoist 0x36
+#define Pachyderm 0x37
+#define Fire 0x38
+#define Thunder 0x39
+#define Elfire 0x3A
+#define Bolting 0x3B
+#define Fimbulvetr 0x3C
+#define Arcfire 0x3D
+//#define Excalibur 0x3E
+#define Light 0x3F
+#define Ellight 0x40
+#define Arclight 0x41
+#define Purge 0x42
+#define Aura 0x43
+#define Genesis 0x44
+#define Flux 0x45
+#define Luna 0x46
+#define Nosferatu 0x47
+#define Eclipse 0x48
+#define Fenrir 0x49
+#define Vortex 0x4A
+#define Heal 0x4B
+#define Mend 0x4C
+#define Recover 0x4D
+#define Physic 0x4E
+#define Fortify 0x4F
+#define Restore 0x50
+#define Silence 0x51
+#define Sleep 0x52
+#define Berserk 0x53
+#define Warp 0x54
+#define Rescue 0x55
+#define Flare 0x56
+#define Repair 0x57
+#define Unlock 0x58
+#define Ward 0x59
+#define Reinforce 0x5A
+#define Apple 0x5B
+#define Pepper 0x5C
+#define Carrot 0x5D
+#define Daikon 0x5E
+#define Noodles 0x5F
+#define Potato 0x60
+#define Tea 0x61
+#define Rice 0x62
+#define Bread 0x63
+#define HeroCrest 0x64
+#define HerosCrest 0x64
+#define KnightCrest 0x65
+#define KnightsCrest 0x65
+#define OrionBolt 0x66
+#define OrionsBolt 0x66
+#define ElysianWhip 0x67
+#define GuidingRing 0x68
+#define ChestKey 0x69
+#define DoorKey 0x6A
+#define Lockpick 0x6B
+#define Vulnerary 0x6C
+#define Elixir 0x6D
+#define PureWater 0x6E
+#define Antidote 0x6F
+#define Antitoxin 0x6F
+#define Torch 0x70
+#define TorchItem 0x70
+#define FlierGuard 0x71
+#define MemberCard 0x72
+#define SilverCard 0x73
+#define WhiteGem 0x74
+#define BlueGem 0x75
+#define RedGem 0x76
+#define Gold 0x77
+//#define Reginleif 0x78
+#define ChestKey_5 0x79
+#define Mine 0x7A
+#define LightRune 0x7B
+#define IronGuard 0x7C
+#define FillasMight 0x7D
+#define NinissGrace 0x7E
+#define ThorsIre 0x7F
+#define SetsLitany 0x80
+#define Naginata 0x81
+#define Fauchard 0x82
+#define Greatlance 0x83
+#define HexlockBow 0x84
+#define Shiv 0x85
+#define Kyudo 0x86
+//#define Ivaldi 0x87
+#define MasterSeal 0x88
+//#define MetissTome 0x89
+#define KnightGuard 0x8A
+#define FullGuard 0x8B
+//#define Latona 0x8C
+//#define DragonSpear 0x8D
+//#define Vidofnir 0x8E
+//#define Naglfar 0x8F
+//#define WretchedAir 0x90
+//#define Audhulma 0x91
+//#define Siegmund 0x92
+//#define Garm 0x93
+//#define Nidhogg 0x94
+#define HeavyLance 0x95
+#define ShortSpear 0x96
+//#define OceanSeal 0x97
+//#define MoonBracelet 0x98
+//#define LunarBracelet 0x98
+//#define SunBracelet 0x99
+//#define SolarBracelet 0x99
+#define Item1G 0x9A
+#define Item5G 0x9B
+#define Item10G 0x9C
+#define Item50G 0x9D
+#define Item100G 0x9E
+#define Item3000G 0x9F
+#define Item5000G 0xA0
+#define _1G 0x9A
+#define _5G 0x9B
+#define _10G 0x9C
+#define _50G 0x9D
+#define _100G 0x9E
+#define _3000G 0x9F
+#define _5000G 0xA0
+#define WindBrand 0xA1
+#define Vulnerary_2 0xA2
+#define Greennote 0xA3
+#define Rednote 0xA4
+#define Dance 0xA5
+//#define Nightmare 0xA6
+//#define NightmareStaff 0xA6
+//#define DemonStone 0xA7
+//#define DemonLight 0xA8
+//#define Ravager 0xA9
+//#define Dragonstone 0xAA
+//#define DemonSurge 0xAB
+#define Wind 0xAC
+#define Elwind 0xAD
+#define Arcwind 0xAE
+#define Rexwind 0xAF
+//#define Thunder 0xB0
+#define Elthunder 0xB1
+#define Arcthunder 0xB2
+#define Rexthunder 0xB3
+#define Rexfire 0xB4
+#define Tornado 0xB5
+#define Meteor 0xB6
+#define JunaFruit 0xB7
+#define _150G 0xB8
+#define _200G 0xB9
+#define BlackGem 0xBA
+#define GoldGem 0xBB
+
+//Other
+#define Large 0x02 //32x32
+#define Medium 0x01 //32x16
+#define Small 0x00 //16x16
+
+//Class Cards
+#define LanceCavalierCard 0x80
+#define SwordCavalierCard 0x84
+#define AxeCavalierCard 0x85
+#define LegionnaireCard 0x92
+#define HalberdierCard 0x99
+
+//Affinities
+#define AffFire 0x1
+#define AffThunder 0x2
+#define AffWind 0x3
+#define AffIce 0x4
+#define AffDark 0x5
+#define AffLight 0x6
+#define AffAnima 0x7 

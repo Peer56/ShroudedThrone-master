@@ -1,23 +1,845 @@
-## NamePhantomAxe
-Phantom Axe[X]
+# 0x354 NameIronSword
+Iron Sword[X]
 
-## DescPhantomAxe
-Bypasses weapon triangle.[X]
+## NameSteelSword
+Steel Sword[X]
+
+## NameSilverSword
+Silver Sword[X]
+
+## NameKillerSword
+Killer Sword[X]
+
+## NameBraveSword
+Brave Sword[X]
+
+## NameLightBrand
+Light Brand[X]
+
+## NameWindBrand
+Wind Brand[X]
+
+## NameDarkBrand
+Dark Brand[X]
+
+## NameIronDagger
+Iron Dagger[X]
+
+## NameSteelDagger
+Steel Dagger[X]
+
+## NameSilverDagger
+Silver Dagger[X]
+
+## NameKillerDagger
+Killer Dagger[X]
+
+## NameKatana
+Katana[X]
+
+## NameLancereaver
+Lancereaver[X]
+
+## NameLongsword
+Longsword[X]
+
+## NameEstoc
+Estoc[X]
+
+## NameGlaive
+Glaive[X]
+
+## NameZweihander
+Zweihander[X]
+
+## NameIronLance
+Iron Lance[X]
+
+## NameSteelLance
+Steel Lance[X]
+
+## NameSilverLance
+Silver Lance[X]
+
+## NameKillerLance
+Killer Lance[X]
+
+## NameBraveLance
+Brave Lance[X]
+
+## NameJavelin
+Javelin[X]
+
+## NameShortSpear
+Short Spear[X]
+
+## NameLongSpear
+Long Spear[X]
+
+## NameNaginata
+Naginata[X]
+
+## NameAxereaver
+Axereaver[X]
+
+## NamePartisan
+Partisan[X]
+
+## NameRanseur
+Ranseur[X]
+
+## NameHarpoon
+Harpoon[X]
+
+## NameGreatlance
+Greatlance[X]
+
+## NameIronAxe
+Iron Axe[X]
+
+## NameSteelAxe
+Steel Axe[X]
+
+## NameSilverAxe
+Silver Axe[X]
+
+## NameKillerAxe
+Killer Axe[X]
+
+## NameBraveAxe
+Brave Axe[X]
+
+## NameHandAxe
+Hand Axe[X]
+
+## NameShortAxe
+Short Axe[X]
+
+## NameTomahawk
+Tomahawk[X]
+
+## NameMasakari
+Masakari[X]
+
+## NameSwordreaver
+Swordreaver[X]
+
+## NameHalberd
+Halberd[X]
+
+## NameMaul
+Maul[X]
+
+## NameBerdeche
+Berdeche[X]
+
+## NamePoleaxe
+Poleaxe[X]
+
+## NameIronBow
+Iron Bow[X]
+
+## NameSteelBow
+Steel Bow[X]
+
+## NameSilverBow
+Silver Bow[X]
+
+## NameKillerBow
+Killer Bow[X]
+
+## NameBraveBow
+Brave Bow[X]
+
+## NameKyudo
+Kyudo[X]
+
+## NameHuntingBow
+Hunting Bow[X]
+
+## NameCleaveBow
+Cleave Bow[X]
+
+## NameHexlockBow
+Hexlock Bow[X]
+
+## NameGreatBow
+Great Bow[X]
+
+## NameArrowspate
+Arrowspate[X]
+
+## NameStonehoist
+Stonehoist[X]
+
+## NamePachyderm
+Pachyderm[X]
+
+## NameFire
+Fire[X]
+
+## NameElfire
+Elfire[X]
+
+## NameArcfire
+Arcfire[X]
+
+## NameRexfire
+Rexfire[X]
+
+## NameMeteor
+Meteor[X]
+
+## NameWind
+Wind[X]
+
+## NameElwind
+Elwind[X]
+
+## NameArcwind
+Arcwind[X]
+
+## NameRexwind
+Rexwind[X]
+
+## NameTornado
+Tornado[X]
+
+## NameThunder
+Thunder[X]
+
+## NameElthunder
+Elthunder[X]
+
+## NameArcthunder
+Arcthunder[X]
+
+## NameRexthunder
+Rexthunder[X]
+
+## NameBolting
+Bolting[X]
+
+## NameFimbulvetr
+Fimbulvetr[X]
+
+## NameLight
+Light[X]
+
+## NameEllight
+Ellight[X]
+
+## NameArclight
+Arclight[X]
+
+## NameResire
+Resire[X]
+
+## NameAura
+Aura[X]
+
+## NameGenesis
+Genesis[X]
+
+## NameFlash
+Flash[X]
+
+## NameDeluge
+Deluge[X]
+
+## NamePurge
+Purge[X]
+
+## NameFlux
+Flux[X]
+
+## NameElflux
+Elflux[X]
+
+## NameArcflux
+Arcflux[X]
+
+## NameNosferatu
+Nosferatu[X]
+
+## NameFenrir
+Fenrir[X]
+
+## NameVortex
+Vortex[X]
+
+## NameLuna
+Luna[X]
+
+## NameJormungandr
+Jormungandr[X]
+
+## NameEclipse
+Eclipse[X]
+
+## NameHeal
+Heal[X]
+
+## NameMend
+Mend[X]
+
+## NameRecover
+Recover[X]
+
+## NamePhysic
+Physic[X]
+
+## NameFortify
+Fortify[X]
+
+## NameRestore
+Restore[X]
+
+## NameSilence
+Silence[X]
+
+## NameSleep
+Sleep[X]
+
+## NameBerserk
+Berserk[X]
+
+## NameWarp
+Warp[X]
+
+## NameRescue
+Rescue[X]
+
+## NameFlare
+Flare[X]
+
+## NameRepair
+Repair[X]
+
+## NameUnlock
+Unlock[X]
+
+## NameWard
+Ward[X]
+
+## NameReinforce
+Reinforce[X]
+
+## NameCurse
+Curse[X]
 
 ## NameShiv
 Shiv[X]
 
-## DescShiv
-Effective against armor.[X]
-
 ## NameFauchard
 Fauchard[X]
 
+## NamePhantomAxe
+Phantom Axe[X]
+
+## NameKnightGuard
+Knight Guard[X]
+
+## NameFlierGuard
+Flier Guard[X]
+
+## NameFullGuard
+Full Guard[X]
+
+## NameIronGuard
+Iron Guard[X]
+
+## NameApple
+Apple[X]
+
+## NamePepper
+Pepper[X]
+
+## NameCarrot
+Carrot[X]
+
+## NameDaikon
+Daikon[X]
+
+## NameNoodles
+Noodles[X]
+
+## NamePotato
+Potato[X]
+
+## NameTea
+Tea[X]
+
+## NameRice
+Rice[X]
+
+## NameBread
+Bread[X]
+
+## NameChestKey
+Chest Key[X]
+
+## NameDoorKey
+Door Key[X]
+
+## NameLockpick
+Lockpick[X]
+
+## NameVulnerary
+Vulnerary[X]
+
+## NameElixir
+Elixir[X]
+
+## NamePureWater
+Pure Water[X]
+
+## NameAntitoxin
+Antitoxin[X]
+
+## NameTorch
+Torch[X]
+
+## NameMemberCard
+Member Card[X]
+
+## NameSilverCard
+Silver Card[X]
+
+## NameWhiteGem
+White Gem[X]
+
+## NameBlueGem
+Blue Gem[X]
+
+## NameRedGem
+Red Gem[X]
+
+## NameGold
+Gold[X]
+
+## NameMasterSeal
+Master Seal[X]
+
+## DescIronSword
+Iron Sword[X]
+
+## DescSteelSword
+Steel Sword[X]
+
+## DescSilverSword
+Silver Sword[X]
+
+## DescKillerSword
+Killer Sword[X]
+
+## DescBraveSword
+Brave Sword[X]
+
+## DescLightBrand
+Light Brand[X]
+
+## DescWindBrand
+Wind Brand[X]
+
+## DescDarkBrand
+Dark Brand[X]
+
+## DescIronDagger
+Iron Dagger[X]
+
+## DescSteelDagger
+Steel Dagger[X]
+
+## DescSilverDagger
+Silver Dagger[X]
+
+## DescKillerDagger
+Killer Dagger[X]
+
+## DescKatana
+Katana[X]
+
+## DescLancereaver
+Lancereaver[X]
+
+## DescLongsword
+Longsword[X]
+
+## DescEstoc
+Estoc[X]
+
+## DescGlaive
+Glaive[X]
+
+## DescZweihander
+Zweihander[X]
+
+## DescIronLance
+Iron Lance[X]
+
+## DescSteelLance
+Steel Lance[X]
+
+## DescSilverLance
+Silver Lance[X]
+
+## DescKillerLance
+Killer Lance[X]
+
+## DescBraveLance
+Brave Lance[X]
+
+## DescJavelin
+Javelin[X]
+
+## DescShortSpear
+Short Spear[X]
+
+## DescLongSpear
+Long Spear[X]
+
+## DescNaginata
+Naginata[X]
+
+## DescAxereaver
+Axereaver[X]
+
+## DescPartisan
+Partisan[X]
+
+## DescRanseur
+Ranseur[X]
+
+## DescHarpoon
+Harpoon[X]
+
+## DescGreatlance
+Greatlance[X]
+
+## DescIronAxe
+Iron Axe[X]
+
+## DescSteelAxe
+Steel Axe[X]
+
+## DescSilverAxe
+Silver Axe[X]
+
+## DescKillerAxe
+Killer Axe[X]
+
+## DescBraveAxe
+Brave Axe[X]
+
+## DescHandAxe
+Hand Axe[X]
+
+## DescShortAxe
+Short Axe[X]
+
+## DescTomahawk
+Tomahawk[X]
+
+## DescMasakari
+Masakari[X]
+
+## DescSwordreaver
+Swordreaver[X]
+
+## DescHalberd
+Halberd[X]
+
+## DescMaul
+Maul[X]
+
+## DescBerdeche
+Berdeche[X]
+
+## DescPoleaxe
+Poleaxe[X]
+
+## DescIronBow
+Iron Bow[X]
+
+## DescSteelBow
+Steel Bow[X]
+
+## DescSilverBow
+Silver Bow[X]
+
+## DescKillerBow
+Killer Bow[X]
+
+## DescBraveBow
+Brave Bow[X]
+
+## DescKyudo
+Kyudo[X]
+
+## DescHuntingBow
+Hunting Bow[X]
+
+## DescCleaveBow
+Cleave Bow[X]
+
+## DescHexlockBow
+Hexlock Bow[X]
+
+## DescGreatBow
+Great Bow[X]
+
+## DescArrowspate
+Arrowspate[X]
+
+## DescStonehoist
+Stonehoist[X]
+
+## DescPachyderm
+Pachyderm[X]
+
+## DescFire
+Fire[X]
+
+## DescElfire
+Elfire[X]
+
+## DescArcfire
+Arcfire[X]
+
+## DescRexfire
+Rexfire[X]
+
+## DescMeteor
+Meteor[X]
+
+## DescWind
+Wind[X]
+
+## DescElwind
+Elwind[X]
+
+## DescArcwind
+Arcwind[X]
+
+## DescRexwind
+Rexwind[X]
+
+## DescTornado
+Tornado[X]
+
+## DescThunder
+Thunder[X]
+
+## DescElthunder
+Elthunder[X]
+
+## DescArcthunder
+Arcthunder[X]
+
+## DescRexthunder
+Rexthunder[X]
+
+## DescBolting
+Bolting[X]
+
+## DescFimbulvetr
+Fimbulvetr[X]
+
+## DescLight
+Light[X]
+
+## DescEllight
+Ellight[X]
+
+## DescArclight
+Arclight[X]
+
+## DescResire
+Resire[X]
+
+## DescAura
+Aura[X]
+
+## DescGenesis
+Genesis[X]
+
+## DescFlash
+Flash[X]
+
+## DescDeluge
+Deluge[X]
+
+## DescPurge
+Purge[X]
+
+## DescFlux
+Flux[X]
+
+## DescElflux
+Elflux[X]
+
+## DescArcflux
+Arcflux[X]
+
+## DescNosferatu
+Nosferatu[X]
+
+## DescFenrir
+Fenrir[X]
+
+## DescVortex
+Vortex[X]
+
+## DescLuna
+Luna[X]
+
+## DescJormungandr
+Jormungandr[X]
+
+## DescEclipse
+Eclipse[X]
+
+## DescHeal
+Heals Mag+10 HP.[X]
+
+## DescMend
+Heals Mag+20 HP.[X]
+
+## DescRecover
+Heals all HP.[X]
+
+## DescPhysic
+Heals Mag+10 HP to a distant unit.[X]
+
+## DescFortify
+Heals Mag+10 HP to all units in range.[X]
+
+## DescRestore
+Cures target's status effects.[X]
+
+## DescSilence
+Inflicts silence on target.[X]
+
+## DescSleep
+Inflicts sleep on target.[X]
+
+## DescBerserk
+Inflicts berserk on target.[X]
+
+## DescWarp
+Warps target to any tile in range.[X]
+
+## DescRescue
+Warps a distant target to the user.[X]
+
+## DescFlare
+Clears fog in the selected tile's radius.[X]
+
+## DescRepair
+Fully repairs one weapon.[X]
+
+## DescUnlock
+Unlocks doors.[X]
+
+## DescWard
+Gives +8 Resistance to target.[X]
+
+## DescReinforce
+Gives +8 Defense to target.[X]
+
+## DescCurse
+Inflicts curse on target.[X]
+
+## DescShiv
+Shiv[X]
+
 ## DescFauchard
-Effective against cavalry.[X]
+Fauchard[X]
 
-## NameIronRune
-Iron Rune[X]
+## DescPhantomAxe
+Ignores the weapon triangle.[X]
 
-## DescIronRune
-Negates critical hits.[X]
+## DescKnightGuard
+Nullifies Armor/Cavalry effectiveness.[X]
+
+## DescFlierGuard
+Nullifies Pegasi/Wyvern effectiveness.[X]
+
+## DescFullGuard
+Nullifies all types of effectiveness.[X]
+
+## DescIronGuard
+Nullifies critical hits against user.[X]
+
+## DescApple
+Apple[X]
+
+## DescPepper
+Pepper[X]
+
+## DescCarrot
+Carrot[X]
+
+## DescDaikon
+Daikon[X]
+
+## DescNoodles
+Noodles[X]
+
+## DescPotato
+Potato[X]
+
+## DescTea
+Tea[X]
+
+## DescRice
+Rice[X]
+
+## DescBread
+Bread[X]
+
+## DescChestKey
+Chest Key[X]
+
+## DescDoorKey
+Door Key[X]
+
+## DescLockpick
+Lockpick[X]
+
+## DescVulnerary
+Vulnerary[X]
+
+## DescElixir
+Elixir[X]
+
+## DescPureWater
+Pure Water[X]
+
+## DescAntitoxin
+Antitoxin[X]
+
+## DescTorch
+Torch[X]
+
+## DescMemberCard
+Member Card[X]
+
+## DescSilverCard
+Silver Card[X]
+
+## DescWhiteGem
+White Gem[X]
+
+## DescBlueGem
+Blue Gem[X]
+
+## DescRedGem
+Red Gem[X]
+
+## DescGold
+Gold[X]
+
+## DescMasterSeal
+Master Seal[X]

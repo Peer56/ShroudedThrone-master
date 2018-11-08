@@ -15,13 +15,16 @@ CheckGaleforce: //decides if the unit should be cantoing or not
 #incbin "checkgaleforce.dmp"
 ALIGN 4
 
+MESSAGE Post Combat Loop at CURRENTOFFSET
 PostCombatLoop:
 #incbin "post_loop.dmp"
 POIN PostCombatSkills
 
+MESSAGE Post Combat List at CURRENTOFFSET
 PostCombatSkills: //I like having savage blow as the first one because it makes the activation sound play first
 POIN SavageBlow BreathOfLife Despoil Lifetaker Fury//lifetaker should probably go after any messages because it can mess with the palette a bit
 POIN Canto CantoPlus Galeforce //this order for canto and friends is the only one I tested
+POIN DeselectUnitForEscape //on its own line for organization reasons
 WORD 0 //Terminator
 
 Lifetaker:

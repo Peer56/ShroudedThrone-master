@@ -1,17 +1,14 @@
-## NameLord
+# 0x2BF NameLord
 Lord[X]
 
-## DescKierraLord
-Princess of Stratus who has the ability[N]
-to use staves and summon phantoms.[X]
+## NameIronclad
+Ironclad[X]
 
-## DescCyrusLord
-A skilled assasin with quick reflexes[N]
-and strength.[X]
+## NamePrincess
+Princess[X]
 
-## DescAlainLord
-A Royal of Racrien with mastery[N]
-over the lance.[X]
+## NameQueen
+Queen[X]
 
 ## NameLanceKnight
 Lance Knight[X]
@@ -22,19 +19,134 @@ Sword Knight[X]
 ## NameAxeKnight
 Axe Knight[X]
 
+## NamePaladin
+Paladin[X]
+
 ## NameArmorKnight
 Armor Knight[X]
 
-## DescSoldier
-Footsoldiers specializing in[N]
-the art of the lance.[X]
+## NameCenturion
+Centurion[X]
+
+## NameThief
+Thief[X]
+
+## NameMercenary
+Mercenary[X]
+
+## NameHero
+Hero[X]
+
+## NameMyrmidon
+Myrmidon[X]
+
+## NameLegionnaire
+Legionnaire[X]
+
+## NameArcher
+Archer[X]
+
+## NameSniper
+Sniper[X]
+
+## NameRanger
+Ranger[X]
+
+## NameWyvernRider
+Wyvern Rider[X]
+
+## NameMarksman
+Marksman[X]
+
+## NameDracoknight
+Dracoknight[X]
+
+## NameMage
+Mage[X]
+
+## NameSage
+Sage[X]
+
+## NameMageKnight
+Mage Knight[X]
+
+## NameBishop
+Bishop[X]
+
+## NameDarkMage
+Dark Mage[X]
+
+## NameSorcerer
+Sorcerer[X]
+
+## NameDarkFalcon
+Dark Falcon[X]
+
+## NameRogue
+Rogue[X]
+
+## NameCuirassier
+Cuirassier[X]
+
+## NameFighter
+Fighter[X]
+
+## NameWarrior
+Warrior[X]
+
+## NameBrigand
+Brigand[X]
+
+## NamePirate
+Pirate[X]
+
+## NameBerserker
+Berserker[X]
+
+## NameLightMage
+Light Mage[X]
+
+## NamePriest
+Priest[X]
+
+## NameApostle
+Apostle[X]
+
+## NamePegasusRider
+Pegasus Rider[X]
+
+## NameFalcoknight
+Falcoknight[X]
+
+## NameCleric
+Cleric[X]
+
+## NameTroubadour
+Troubadour[X]
+
+## NameValkyrie
+Valkyrie[X]
+
+## NameDancer
+Dancer[X]
+
+## NameSoldier
+Soldier[X]
+
+## NameReaver
+Reaver[X]
+
+## NameWhisper
+Whisper[X]
+
+## NamePhantom
+Phantom[X]
 
 ## NameHalberdier
 Halberdier[X]
 
-## DescHalberdier
-Veteran soldiers with unparalleled[N]
-mastery of the lance.[X]
+## NameDreadFighter
+Dread Fighter[X]
 
 ## NameMerchant
 Merchant[X]
@@ -43,7 +155,22 @@ Merchant[X]
 A merchant who transports goods and[N]
 supplies who uses a bow for self-defense.[X]
 
+## DescPrincess
+Princess of Stratus who has the ability[N]
+to use staves and summon phantoms.[X]
 
+## DescLord
+A Royal of Racrien with mastery[N]
+over the lance.[X]
 
+## DescReaver
+A skilled assasin with quick reflexes[N]
+and strength.[X]
 
+## DescSoldier
+Footsoldiers specializing in[N]
+the art of the lance.[X]
 
+## DescHalberdier
+Veteran soldiers with unparalleled[N]
+mastery of the lance.[X]

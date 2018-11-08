@@ -1,2 +1,3 @@
-Darting Stance: +6 speed[N]
-when foe initiates battle.[X]
+Kestrel Stance: +4 attack[N]
+and speed when foe[N]
+initiates battle.[X]

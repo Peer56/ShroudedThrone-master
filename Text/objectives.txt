@@ -1,8 +1,20 @@
+# 0x1A2 ObjectiveCH0
+Defend Castle[X]
+
 ## ObjectiveCH1
-Raid Villages[X]
+ Raid Houses[X]
 
 ## ObjectiveCH2
- Arrive[X]
+Arrive[X]
 
 ## ObjectiveCH3
 Defend[X]
+
+## ObjectiveCH4A
+Rout[X]
+
+## ObjectiveCH4B
+Escape[X]
+
+## ObjectiveCH5
+Placeholder[X]

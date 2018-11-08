@@ -19,7 +19,7 @@ UNIT Cyrus CyrusLord 0x0 Level(1,Ally,0) [2,5] 0x0 0x0 0x0 0x0 [Shiv,Lockpick] N
 UNIT
 
 Bad: 
-UNIT AlainCH1 EphraimLord 0x0 Level(1,Enemy,0) [13,11] 0x0 0x0 0x0 0x0 [Fauchard] AttackInRangeAI
+UNIT AlainCH1 EphraimLord 0x0 Level(2,Enemy,0) [13,11] 0x0 0x0 0x0 0x0 [Fauchard] AttackInRangeAI
 UNIT GenericCH1 Fighter AlainCH1 Level(1,Enemy,0) [11,5] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT GenericCH1 Mercenary AlainCH1 Level(1,Enemy,0) [1,8] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
 UNIT GenericCH1 Fighter AlainCH1 Level(1,Enemy,0) [5,12] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
@@ -100,7 +100,7 @@ ENDA
 
 ALIGN 4
 BottomLeftRaid:
-GiveItemToCurrent(Vulnerary)
+GiveItemToActive(Vulnerary)
 TileChange(2,9)
 NoFade
 ENDA
