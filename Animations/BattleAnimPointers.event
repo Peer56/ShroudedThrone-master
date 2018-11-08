@@ -1,8 +1,9 @@
 #define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
 #define LanceAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
 #define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
-#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE ShortAxe 0x00 ; SHORT Animation"
 #define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
+#define BallistaAnim(Animation) "BYTE Arrowspate 0x00 ; SHORT Animation ; BYTE Stonehoist 0x00 ; SHORT Animation ; BYTE Pachyderm 0x00 ; SHORT Animation"
 #define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
 #define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
 #define LightAnim(Animation) "BYTE Light 0x01 ; SHORT Animation"
@@ -11,21 +12,38 @@
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
 #define Item 9
 
-KierraAnim:
+PrincessAnim:
 StaffAnim(0x01)
 //SpecialAnim(0x02,Weapon)
 UnarmedAnim(0x03)
 WORD 0x0
 
-CyrusAnim:
+ReaverAnim:
 SwordAnim(0x04)
-SpecialAnim(0x05,Rapier)
+SpecialAnim(0x05,Shiv)
 UnarmedAnim(0x06)
 WORD 0x0
 
-AlainAnim:
+LordAnim:
 LanceAnim(0x07)
 UnarmedAnim(0x08)
+WORD 0x0
+
+MaleArcherAnim:
+BowAnim(0x26)
+UnarmedAnim(0x27)
+WORD 0x0
+
+MaleRangerAnim:
+LanceAnim(0x2E)
+BowAnim(0x2F)
+UnarmedAnim(0x30)
+WORD 0x0
+
+FemaleRangerAnim:
+LanceAnim(0x31)
+BowAnim(0x32)
+UnarmedAnim(0x33)
 WORD 0x0
 
 CavalierAnim:
@@ -34,6 +52,14 @@ LanceAnim(0x35)
 AxeAnim(0x36)
 HandAxeAnim(0x37)
 UnarmedAnim(0x38)
+WORD 0x0
+
+IroncladAnim:
+LanceAnim(0x49)
+SpecialAnim(0x4A,Fauchard)
+AxeAnim(0x4B)
+HandAxeAnim(0x4C)
+UnarmedAnim(0x4D)
 WORD 0x0
 
 ArmorKnightAnim:

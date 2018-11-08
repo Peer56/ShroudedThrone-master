@@ -1,0 +1,2241 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	Deathlight_grp  voicegroup000
+	#define	Deathlight_pri  0
+	#define	Deathlight_rev  0
+	#define	Deathlight_mvl  85
+	#define	Deathlight_key  0
+	#define	Deathlight_tbs  1
+	#define	Deathlight_exg  0
+	#define	Deathlight_cmp  1
+
+	// .rodata
+	//	Deathlight
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+Deathlight_1:
+	BYTE	KEYSH   Deathlight_key+0
+Deathlight_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   89*Deathlight_tbs/2
+	BYTE		VOICE   20
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		N17     An1   v096
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		N23     Dn2 
+	BYTE	W24
+	BYTE		N11     An1 
+	BYTE	W12
+	BYTE		        Dn2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		N17     Gn2 
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE	W12
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N44     Dn2 
+	BYTE	W48
+// 002   ----------------------------------------
+	BYTE		N17     Gn2 
+	BYTE	W24
+	BYTE		        Fn2 
+	BYTE	W12
+	BYTE		N23     En2 
+	BYTE	W24
+	BYTE		N11     Dn2 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		N17     En2 
+	BYTE	W24
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		N11     En2 
+	BYTE	W12
+	BYTE		N44     Cs2 
+	BYTE	W48
+// 004   ----------------------------------------
+	BYTE		N17     An1 
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		N23     Dn2 
+	BYTE	W24
+	BYTE		N11     An1 
+	BYTE	W12
+	BYTE		        Dn2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		N17     Gn2 
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE	W12
+	BYTE		N11     Gn2 
+	BYTE	W12
+	BYTE		N44     Bn2 
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE		N23     As2   v064
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+// 012   ----------------------------------------
+Deathlight_1_012:
+	BYTE		N17     As1   v096
+	BYTE	W24
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		N23     Ds2 
+	BYTE	W24
+	BYTE		N11     As1 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+Deathlight_1_013:
+	BYTE		N17     Gs2   v096
+	BYTE	W24
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		N11     Gs2 
+	BYTE	W12
+	BYTE		N44     Ds2 
+	BYTE	W48
+	BYTE	PEND
+// 014   ----------------------------------------
+Deathlight_1_014:
+	BYTE		N17     Fn2   v096
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W36
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+Deathlight_1_015:
+	BYTE		N17     Fn2   v096
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE	W12
+	BYTE		N11     Fn2 
+	BYTE	W12
+	BYTE		N44     Dn2 
+	BYTE	W48
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_012
+// 017   ----------------------------------------
+Deathlight_1_017:
+	BYTE		N17     Gs2   v096
+	BYTE	W24
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		N11     Gs2 
+	BYTE	W12
+	BYTE		N44     Cn3 
+	BYTE	W48
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_014
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_015
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_012
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_014
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_015
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_012
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_017
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+Deathlight_1_028:
+	BYTE		N17     Bn2   v112
+	BYTE	W24
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		N23     Gs2 
+	BYTE	W24
+	BYTE		N11     Fs2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE	PEND
+// 029   ----------------------------------------
+Deathlight_1_029:
+	BYTE		N17     Gs2   v112
+	BYTE	W24
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		N11     Gs2 
+	BYTE	W12
+	BYTE		N17     Fn2 
+	BYTE	W24
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		N11     Cs3 
+	BYTE	W12
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_028
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_1_029
+// 032   ----------------------------------------
+	BYTE		N92     As2   v112
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Deathlight_1_B1
+Deathlight_1_B2:
+// 033   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+Deathlight_2:
+	BYTE	KEYSH   Deathlight_key+0
+Deathlight_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   75
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE		N22     As3   v064
+	BYTE	W24
+	BYTE		N22   
+	BYTE	W24
+	BYTE		N22   
+	BYTE	W24
+	BYTE		N22   
+	BYTE	W24
+// 012   ----------------------------------------
+Deathlight_2_012:
+	BYTE		N17     As3   v064
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+Deathlight_2_013:
+	BYTE		N17     Gs4   v064
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		N11     Gs4 
+	BYTE	W12
+	BYTE		N44     Ds4 
+	BYTE	W48
+	BYTE	PEND
+// 014   ----------------------------------------
+Deathlight_2_014:
+	BYTE		N17     Fn4   v064
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W36
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+Deathlight_2_015:
+	BYTE		N17     Fn4   v064
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		N44     Dn4 
+	BYTE	W48
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_2_012
+// 017   ----------------------------------------
+Deathlight_2_017:
+	BYTE		N17     Gs4   v064
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		N11     Gs4 
+	BYTE	W12
+	BYTE		N44     Cn5 
+	BYTE	W48
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_2_014
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_2_015
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_2_012
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_2_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_2_014
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_2_015
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_2_012
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_2_017
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE		N17     Bn4   v096
+	BYTE	W24
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		N22     Gs4 
+	BYTE	W24
+	BYTE		N11     Fs4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE	W12
+// 031   ----------------------------------------
+	BYTE		N17     Gs4 
+	BYTE	W24
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		N11     Gs4 
+	BYTE	W12
+	BYTE		N17     Fn4 
+	BYTE	W24
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		N11     Cs5 
+	BYTE	W12
+// 032   ----------------------------------------
+	BYTE		N90     As4   v112
+	BYTE	W90
+	BYTE	W01
+	BYTE		VOICE   56
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	Deathlight_2_B1
+Deathlight_2_B2:
+// 033   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+Deathlight_3:
+	BYTE	KEYSH   Deathlight_key+0
+Deathlight_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   20
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		N17     Dn4   v064
+	BYTE	W24
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N23     Fn4 
+	BYTE	W24
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		N17     Bn4 
+	BYTE	W24
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N11     Bn4 
+	BYTE	W12
+	BYTE		N44     Gn4 
+	BYTE	W48
+// 002   ----------------------------------------
+	BYTE		N17     As4 
+	BYTE	W24
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N23     Gn4 
+	BYTE	W24
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		N17     Gn4 
+	BYTE	W24
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		N44     En4 
+	BYTE	W48
+// 004   ----------------------------------------
+	BYTE		N17     Dn4 
+	BYTE	W24
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N23     Fn4 
+	BYTE	W24
+	BYTE		N11     Dn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		N17     Bn4 
+	BYTE	W24
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N11     Bn4 
+	BYTE	W12
+	BYTE		N44     Dn5 
+	BYTE	W48
+// 006   ----------------------------------------
+	BYTE		N17     As4   v096
+	BYTE	W24
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N23     Gn4 
+	BYTE	W24
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE		N17     Gn4 
+	BYTE	W24
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		N17     En4 
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		N11     Cn5 
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE		N32     Fn5 
+	BYTE	W36
+	BYTE		N44     En5 
+	BYTE	W60
+// 009   ----------------------------------------
+	BYTE		N32     Dn5 
+	BYTE	W36
+	BYTE		        Cn5 
+	BYTE	W36
+	BYTE		N23     Gn5 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		N32     Fn5 
+	BYTE	W36
+	BYTE		        En5 
+	BYTE	W36
+	BYTE		N23     Cn5 
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		        Ds5 
+	BYTE	W24
+	BYTE		        Dn5 
+	BYTE	W24
+	BYTE		        Gs5 
+	BYTE	W24
+	BYTE		        Fn5 
+	BYTE	W24
+// 012   ----------------------------------------
+Deathlight_3_012:
+	BYTE		N17     Ds3   v096
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		N23     Fs3 
+	BYTE	W24
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+Deathlight_3_013:
+	BYTE		N17     Cn4   v096
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N44     Gs3 
+	BYTE	W48
+	BYTE	PEND
+// 014   ----------------------------------------
+Deathlight_3_014:
+	BYTE		N17     Bn3   v096
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N23     Gs3 
+	BYTE	W24
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+Deathlight_3_015:
+	BYTE		N17     Gs3   v096
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N44     Fn3 
+	BYTE	W48
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_012
+// 017   ----------------------------------------
+Deathlight_3_017:
+	BYTE		N17     Cn4   v096
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N44     Ds4 
+	BYTE	W48
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_014
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_015
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_012
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_014
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_015
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_012
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_017
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_3_014
+// 031   ----------------------------------------
+	BYTE		N17     Gs3   v096
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N17     Fn3 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		N11     Cs4 
+	BYTE	W12
+// 032   ----------------------------------------
+	BYTE		N92     Ds4   v112
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Deathlight_3_B1
+Deathlight_3_B2:
+// 033   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+Deathlight_4:
+	BYTE	KEYSH   Deathlight_key+0
+Deathlight_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   19
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		N17     En3   v096
+	BYTE	W24
+	BYTE		N23     Fn3 
+	BYTE	W24
+	BYTE		N11     Dn3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		N17     Bn3 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		        An3 
+	BYTE	W24
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		N44     Dn4 
+	BYTE	W48
+	BYTE		N17     As3 
+	BYTE	W12
+// 002   ----------------------------------------
+	BYTE		        An3 
+	BYTE	W24
+	BYTE		N23     Gn3 
+	BYTE	W24
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N17     Gn3 
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W24
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		N17     En3 
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		TIE     An3 
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W80
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W13
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W84
+	BYTE		N08     Dn3   v080
+	BYTE	W12
+// 029   ----------------------------------------
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W12
+// 030   ----------------------------------------
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE		N32     En3 
+	BYTE	W36
+	BYTE		N05     Dn3 
+	BYTE		N05     En3 
+	BYTE	W12
+	BYTE		N17     Fn3 
+	BYTE	W12
+// 031   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		N44     Gn3 
+	BYTE	W48
+	BYTE		N23     Fn3 
+	BYTE	W12
+// 032   ----------------------------------------
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE		N17     En3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W24
+	BYTE		N11     Cn3 
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	Deathlight_4_B1
+Deathlight_4_B2:
+// 033   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.6) ****************//
+
+Deathlight_5:
+	BYTE	KEYSH   Deathlight_key+0
+Deathlight_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   19
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		N11     Dn1   v036
+	BYTE		N11     Dn2 
+	BYTE	W24
+	BYTE		        Dn1 
+	BYTE		N11     Dn2 
+	BYTE	W24
+	BYTE		        Dn1 
+	BYTE		N11     Dn2 
+	BYTE	W24
+	BYTE		        Dn1 
+	BYTE		N11     Dn2 
+	BYTE	W24
+// 001   ----------------------------------------
+Deathlight_5_001:
+	BYTE		N11     Gn1   v036
+	BYTE		N11     Gn2 
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE		N11     Gn2 
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE		N11     Gn2 
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE		N11     Gn2 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE		        Fn1 
+	BYTE		N11     Fn2 
+	BYTE	W24
+	BYTE		        Fn1 
+	BYTE		N11     Fn2 
+	BYTE	W24
+	BYTE		        Fn1 
+	BYTE		N11     Fn2 
+	BYTE	W24
+	BYTE		        Fn1 
+	BYTE		N11     Fn2 
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W24
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W24
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W24
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE		        Dn1 
+	BYTE		N11     Dn2 
+	BYTE	W24
+	BYTE		        Dn1 
+	BYTE		N11     Dn2 
+	BYTE	W24
+	BYTE		        Dn1 
+	BYTE		N11     Dn2 
+	BYTE	W24
+	BYTE		        Dn1 
+	BYTE		N11     Dn2 
+	BYTE	W24
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_001
+// 006   ----------------------------------------
+	BYTE		N32     As1   v036
+	BYTE		N32     As2 
+	BYTE	W36
+	BYTE		N44     Cn2 
+	BYTE		N44     Cn3 
+	BYTE	W60
+// 007   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     Dn3 
+	BYTE	W36
+	BYTE		N44     En2 
+	BYTE		N44     En3 
+	BYTE	W60
+// 008   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     An2 
+	BYTE	W36
+	BYTE		N44     Dn2 
+	BYTE		N44     Gn2 
+	BYTE	W60
+// 009   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     Fn2 
+	BYTE	W36
+	BYTE		        Dn2 
+	BYTE		N32     Fn2 
+	BYTE	W36
+	BYTE		N23     En2 
+	BYTE		N23     As2 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     An2 
+	BYTE	W36
+	BYTE		        Dn2 
+	BYTE		N32     Gn2 
+	BYTE	W36
+	BYTE		N23     Dn2 
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		        As1 
+	BYTE		N23     As2 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N23     As2 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N23     As2 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N23     As2 
+	BYTE	W24
+// 012   ----------------------------------------
+Deathlight_5_012:
+	BYTE		N11     Ds1   v036
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE	PEND
+// 013   ----------------------------------------
+Deathlight_5_013:
+	BYTE		N11     Gs1   v036
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE	PEND
+// 014   ----------------------------------------
+Deathlight_5_014:
+	BYTE		N11     Bn1   v036
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE	PEND
+// 015   ----------------------------------------
+Deathlight_5_015:
+	BYTE		N11     As1   v036
+	BYTE		N11     As2 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N11     As2 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N11     As2 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N11     As2 
+	BYTE	W24
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_012
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_014
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_015
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_012
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_014
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_015
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_012
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_013
+// 026   ----------------------------------------
+Deathlight_5_026:
+	BYTE		N32     Ds2   v036
+	BYTE	W36
+	BYTE		N44     Fn2 
+	BYTE	W60
+	BYTE	PEND
+// 027   ----------------------------------------
+Deathlight_5_027:
+	BYTE		N32     Fs2   v036
+	BYTE	W36
+	BYTE		N44     Gs2 
+	BYTE	W60
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_026
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_027
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_026
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_5_027
+// 032   ----------------------------------------
+	BYTE		N92     As2   v036
+	BYTE		N92     Ds3 
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Deathlight_5_B1
+Deathlight_5_B2:
+// 033   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.8) ****************//
+
+Deathlight_6:
+	BYTE	KEYSH   Deathlight_key+0
+Deathlight_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE	W24
+	BYTE		N17     Bn0   v064
+	BYTE	W36
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+// 001   ----------------------------------------
+Deathlight_6_001:
+	BYTE		N17     Bn0   v064
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+Deathlight_6_002:
+	BYTE	W24
+	BYTE		N17     Bn0   v064
+	BYTE	W36
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_002
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_001
+// 006   ----------------------------------------
+	BYTE		N17     Bn0   v096
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W36
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W36
+	BYTE		N17   
+	BYTE	W36
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 013   ----------------------------------------
+Deathlight_6_013:
+	BYTE		N05     Bn0   v096
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_013
+// 026   ----------------------------------------
+Deathlight_6_026:
+	BYTE		N05     Bn0   v096
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W36
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_026
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_026
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_026
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_6_026
+// 031   ----------------------------------------
+	BYTE		N05     Bn0   v096
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W24
+	BYTE		N17   
+	BYTE	W24
+// 032   ----------------------------------------
+	BYTE		N23     Bn0   v127
+	BYTE	W24
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	Deathlight_6_B1
+Deathlight_6_B2:
+// 033   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.11) ****************//
+
+Deathlight_7:
+	BYTE	KEYSH   Deathlight_key+0
+Deathlight_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   109
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE		N44     An1   v096
+	BYTE		N44     Dn2 
+	BYTE		N44     An2 
+	BYTE		N44     Dn3 
+	BYTE	W48
+	BYTE		        An2 
+	BYTE		N44     Dn3 
+	BYTE		N44     An3 
+	BYTE		N44     Dn4 
+	BYTE	W48
+// 001   ----------------------------------------
+Deathlight_7_001:
+	BYTE		N44     Gn1   v096
+	BYTE		N44     Bn1 
+	BYTE		N44     Gn2 
+	BYTE		N44     Bn2 
+	BYTE	W48
+	BYTE		N23     Dn2 
+	BYTE		N23     Fn2 
+	BYTE		N23     Dn3 
+	BYTE		N23     Fn3 
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE		N23     En2 
+	BYTE		N23     Cn3 
+	BYTE		N23     En3 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE		N44     As1 
+	BYTE		N44     Dn2 
+	BYTE		N44     As2 
+	BYTE		N44     Dn3 
+	BYTE	W48
+	BYTE		        Dn2 
+	BYTE		N44     As2 
+	BYTE		N44     Dn3 
+	BYTE		N44     As3 
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE		        An1 
+	BYTE		N44     Cs2 
+	BYTE		N44     An2 
+	BYTE		N44     Cs3 
+	BYTE	W48
+	BYTE		        Cs2 
+	BYTE		N44     An2 
+	BYTE		N44     Cs3 
+	BYTE		N44     An3 
+	BYTE	W48
+// 004   ----------------------------------------
+	BYTE		        An1 
+	BYTE		N44     Dn2 
+	BYTE		N44     An2 
+	BYTE		N44     Dn3 
+	BYTE	W48
+	BYTE		        An2 
+	BYTE		N44     Dn3 
+	BYTE		N44     An3 
+	BYTE		N44     Dn4 
+	BYTE	W48
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_001
+// 006   ----------------------------------------
+	BYTE		N32     As1   v052
+	BYTE		N32     As2 
+	BYTE	W36
+	BYTE		N44     Cn2 
+	BYTE		N44     Cn3 
+	BYTE	W60
+// 007   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     Dn3 
+	BYTE	W36
+	BYTE		N44     En2 
+	BYTE		N44     En3 
+	BYTE	W60
+// 008   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     An2 
+	BYTE		N32     An3 
+	BYTE	W36
+	BYTE		N44     Dn2 
+	BYTE		N44     Gn2 
+	BYTE		N44     Gn3 
+	BYTE	W60
+// 009   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     Fn2 
+	BYTE		N32     Fn3 
+	BYTE	W36
+	BYTE		        Dn2 
+	BYTE		N32     Fn2 
+	BYTE		N32     Fn3 
+	BYTE	W36
+	BYTE		N23     En2 
+	BYTE		N23     As2 
+	BYTE		N23     As3 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     An2 
+	BYTE		N32     An3 
+	BYTE	W36
+	BYTE		        Dn2 
+	BYTE		N32     Gn2 
+	BYTE		N32     Gn3 
+	BYTE	W36
+	BYTE		N23     Dn2 
+	BYTE		N23     Dn3 
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		        As1 
+	BYTE		N23     As3 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N23     As3 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N23     As3 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N23     As3 
+	BYTE	W24
+// 012   ----------------------------------------
+Deathlight_7_012:
+	BYTE		N17     As1   v112
+	BYTE		N17     Ds2 
+	BYTE		N17     Ds3 
+	BYTE	W24
+	BYTE		        Cs2 
+	BYTE		N17     Fn2 
+	BYTE		N17     Fn3 
+	BYTE	W12
+	BYTE		N23     Ds2 
+	BYTE		N23     Fs2 
+	BYTE		N23     Fs3 
+	BYTE	W24
+	BYTE		N11     As1 
+	BYTE		N11     Ds2 
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE		N11     Fs2 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE		N11     Cs3 
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+Deathlight_7_013:
+	BYTE		N17     Gs2   v112
+	BYTE		N17     Cn3 
+	BYTE		N17     Cn4 
+	BYTE	W24
+	BYTE		        Ds2 
+	BYTE		N17     As2 
+	BYTE		N17     As3 
+	BYTE	W12
+	BYTE		N11     Gs2 
+	BYTE		N11     Cn3 
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N44     Ds2 
+	BYTE		N44     Gs2 
+	BYTE		N44     Gs3 
+	BYTE	W48
+	BYTE	PEND
+// 014   ----------------------------------------
+Deathlight_7_014:
+	BYTE		N17     Fn2   v112
+	BYTE		N17     Bn2 
+	BYTE		N17     Bn3 
+	BYTE	W24
+	BYTE		        Fn2 
+	BYTE		N17     As2 
+	BYTE		N17     As3 
+	BYTE	W12
+	BYTE		N23     Gs2 
+	BYTE		N23     Gs3 
+	BYTE	W24
+	BYTE		N11     Ds2 
+	BYTE		N11     Fs2 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE		N11     Gs2 
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE		N11     As2 
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+Deathlight_7_015:
+	BYTE		N17     Fn2   v112
+	BYTE		N17     Gs2 
+	BYTE		N17     Gs3 
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE		N17     Fs2 
+	BYTE		N17     Fs3 
+	BYTE	W12
+	BYTE		N11     Fn2 
+	BYTE		N11     Gs2 
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N44     Dn2 
+	BYTE		N44     Fn2 
+	BYTE		N44     Fn3 
+	BYTE	W48
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_012
+// 017   ----------------------------------------
+Deathlight_7_017:
+	BYTE		N17     Gs2   v112
+	BYTE		N17     Cn3 
+	BYTE		N17     Cn4 
+	BYTE	W24
+	BYTE		        Ds2 
+	BYTE		N17     As2 
+	BYTE		N17     As3 
+	BYTE	W12
+	BYTE		N11     Gs2 
+	BYTE		N11     Cn3 
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		N44     Cn3 
+	BYTE		N44     Ds3 
+	BYTE		N44     Ds4 
+	BYTE	W48
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_014
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_015
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_012
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_014
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_015
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_012
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_017
+// 026   ----------------------------------------
+Deathlight_7_026:
+	BYTE		N17     Bn2   v127
+	BYTE		N17     Bn3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N17     As3 
+	BYTE	W12
+	BYTE		N23     Gs2 
+	BYTE		N23     Gs3 
+	BYTE	W24
+	BYTE		N11     Fs2 
+	BYTE		N11     Fs3 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE	PEND
+// 027   ----------------------------------------
+Deathlight_7_027:
+	BYTE		N17     Gs2   v127
+	BYTE		N17     Gs3 
+	BYTE	W24
+	BYTE		        Fs2 
+	BYTE		N17     Fs3 
+	BYTE	W12
+	BYTE		N11     Gs2 
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		N17     Cs2 
+	BYTE		N17     Gs2 
+	BYTE		N17     Fn3 
+	BYTE	W24
+	BYTE		        Fn2 
+	BYTE		N17     Cs3 
+	BYTE		N17     Gs3 
+	BYTE	W12
+	BYTE		N11     Gs2 
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE		N92     Ds3   v096
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_026
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_7_027
+// 032   ----------------------------------------
+	BYTE		N92     As2   v127
+	BYTE		N92     Ds3 
+	BYTE		N92     Ds4 
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Deathlight_7_B1
+Deathlight_7_B2:
+// 033   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.15) ****************//
+
+Deathlight_8:
+	BYTE	KEYSH   Deathlight_key+0
+Deathlight_8_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   10
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE	W24
+	BYTE		N22     Dn2   v080
+	BYTE		N22     Fn2 
+	BYTE	W24
+	BYTE		N17     Dn2 
+	BYTE		N17     Fn2 
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE		N17     Fn2 
+	BYTE	W24
+// 001   ----------------------------------------
+Deathlight_8_001:
+	BYTE		N17     Bn1   v080
+	BYTE		N17     Dn2 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE		N17     Dn2 
+	BYTE	W24
+	BYTE		N22     Bn1 
+	BYTE		N22     Dn2 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE		N22     Dn2 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W24
+	BYTE		        En2 
+	BYTE		N22     Gn2 
+	BYTE	W24
+	BYTE		N17     En2 
+	BYTE		N17     Gn2 
+	BYTE	W24
+	BYTE		        En2 
+	BYTE		N17     Gn2 
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE		        An1 
+	BYTE		N17     Cs2 
+	BYTE	W24
+	BYTE		        An1 
+	BYTE		N17     Cs2 
+	BYTE	W24
+	BYTE		N22     An1 
+	BYTE		N22     Cs2 
+	BYTE	W24
+	BYTE		        An1 
+	BYTE		N22     Cs2 
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE		N22     Fn2 
+	BYTE	W24
+	BYTE		N17     Dn2 
+	BYTE		N17     Fn2 
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE		N17     Fn2 
+	BYTE	W24
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_001
+// 006   ----------------------------------------
+	BYTE		N32     As0   v080
+	BYTE		N32     As1 
+	BYTE	W36
+	BYTE		N44     Cn2 
+	BYTE		N44     En2 
+	BYTE		N44     Gn2 
+	BYTE		N44     Cn3 
+	BYTE	W60
+// 007   ----------------------------------------
+	BYTE		N32     Dn1 
+	BYTE		N32     Dn2 
+	BYTE	W36
+	BYTE		N44     En1 
+	BYTE		N44     An1 
+	BYTE		N44     Cn2 
+	BYTE		N44     En2 
+	BYTE	W60
+// 008   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     An2 
+	BYTE	W36
+	BYTE		N44     Dn2 
+	BYTE		N44     Gn2 
+	BYTE	W60
+// 009   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     Fn2 
+	BYTE	W36
+	BYTE		        Dn2 
+	BYTE		N32     Fn2 
+	BYTE	W36
+	BYTE		N22     Gn2 
+	BYTE		N22     As2 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		N32     Dn2 
+	BYTE		N32     An2 
+	BYTE	W36
+	BYTE		        Dn2 
+	BYTE		N32     Gn2 
+	BYTE	W36
+	BYTE		N22     Dn2 
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		        As0 
+	BYTE		N22     As1 
+	BYTE	W24
+	BYTE		        As0 
+	BYTE		N22     As1 
+	BYTE	W24
+	BYTE		        As0 
+	BYTE		N22     As1 
+	BYTE	W24
+	BYTE		        As0 
+	BYTE		N22     As1 
+	BYTE	W24
+// 012   ----------------------------------------
+Deathlight_8_012:
+	BYTE		N90     Ds1   v080
+	BYTE		N90     Fs1 
+	BYTE		N90     As1 
+	BYTE		N90     Ds2 
+	BYTE	W96
+	BYTE	PEND
+// 013   ----------------------------------------
+Deathlight_8_013:
+	BYTE		N90     Gs0   v080
+	BYTE		N90     Bn0 
+	BYTE		N90     Ds1 
+	BYTE		N90     Gs1 
+	BYTE	W96
+	BYTE	PEND
+// 014   ----------------------------------------
+Deathlight_8_014:
+	BYTE		N90     Fn1   v080
+	BYTE		N90     Gs1 
+	BYTE		N90     Bn1 
+	BYTE		N90     Fn2 
+	BYTE	W96
+	BYTE	PEND
+// 015   ----------------------------------------
+Deathlight_8_015:
+	BYTE		N90     As0   v080
+	BYTE		N90     Dn1 
+	BYTE		N90     Fn1 
+	BYTE		N90     As1 
+	BYTE	W96
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_012
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_014
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_015
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_012
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_014
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_015
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_012
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_013
+// 026   ----------------------------------------
+Deathlight_8_026:
+	BYTE		N32     Gs1   v080
+	BYTE		N32     Bn1 
+	BYTE		N32     Ds2 
+	BYTE	W36
+	BYTE		N44     As1 
+	BYTE		N44     Cs2 
+	BYTE		N44     Fn2 
+	BYTE	W60
+	BYTE	PEND
+// 027   ----------------------------------------
+Deathlight_8_027:
+	BYTE		N32     Bn1   v080
+	BYTE		N32     Ds2 
+	BYTE		N32     Fs2 
+	BYTE	W36
+	BYTE		N44     Cs2 
+	BYTE		N44     Fn2 
+	BYTE		N44     Gs2 
+	BYTE	W60
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_026
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_8_027
+// 030   ----------------------------------------
+	BYTE		N32     Gs0   v080
+	BYTE		N32     Gs1 
+	BYTE	W36
+	BYTE		N44     As0 
+	BYTE		N44     As1 
+	BYTE	W60
+// 031   ----------------------------------------
+	BYTE		N32     Bn0 
+	BYTE		N32     Bn1 
+	BYTE	W36
+	BYTE		N44     Cs1 
+	BYTE		N44     Cs2 
+	BYTE	W60
+// 032   ----------------------------------------
+	BYTE		N90     Ds1 
+	BYTE		N90     Ds2 
+	BYTE	W90
+	BYTE	W01
+	BYTE		VOICE   67
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE	W05
+	BYTE	GoTo
+	 POIN2	Deathlight_8_B1
+Deathlight_8_B2:
+// 033   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.16) ****************//
+
+Deathlight_9:
+	BYTE	KEYSH   Deathlight_key+0
+Deathlight_9_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   13
+	BYTE		PAN     c_v+0
+	BYTE		VOL     100*Deathlight_mvl/mxv
+	BYTE	W24
+	BYTE		N23     Dn4   v080
+	BYTE		N23     Fn4 
+	BYTE	W24
+	BYTE		N17     Dn4 
+	BYTE		N17     Fn4 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE		N17     Fn4 
+	BYTE	W24
+// 001   ----------------------------------------
+Deathlight_9_001:
+	BYTE		N17     Bn3   v080
+	BYTE		N17     Dn4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N17     Dn4 
+	BYTE	W24
+	BYTE		N23     Bn3 
+	BYTE		N23     Dn4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N23     Dn4 
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W24
+	BYTE		        En4 
+	BYTE		N23     Gn4 
+	BYTE	W24
+	BYTE		N17     En4 
+	BYTE		N17     Gn4 
+	BYTE	W24
+	BYTE		        En4 
+	BYTE		N17     Gn4 
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE		        An3 
+	BYTE		N17     Cs4 
+	BYTE	W24
+	BYTE		        An3 
+	BYTE		N17     Cs4 
+	BYTE	W24
+	BYTE		N23     An3 
+	BYTE		N23     Cs4 
+	BYTE	W24
+	BYTE		        An3 
+	BYTE		N23     Cs4 
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE		N23     Fn4 
+	BYTE	W24
+	BYTE		N17     Dn4 
+	BYTE		N17     Fn4 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE		N17     Fn4 
+	BYTE	W24
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_001
+// 006   ----------------------------------------
+	BYTE		N32     As2   v080
+	BYTE		N32     As3 
+	BYTE	W36
+	BYTE		N44     Cn4 
+	BYTE		N44     En4 
+	BYTE		N44     Gn4 
+	BYTE		N44     Cn5 
+	BYTE	W60
+// 007   ----------------------------------------
+	BYTE		N32     Dn3 
+	BYTE		N32     Dn4 
+	BYTE	W36
+	BYTE		N44     En3 
+	BYTE		N44     An3 
+	BYTE		N44     Cn4 
+	BYTE		N44     En4 
+	BYTE	W60
+// 008   ----------------------------------------
+	BYTE		N32     Dn4 
+	BYTE		N32     An4 
+	BYTE	W36
+	BYTE		N44     Dn4 
+	BYTE		N44     Gn4 
+	BYTE	W60
+// 009   ----------------------------------------
+	BYTE		N32     Dn4 
+	BYTE		N32     Fn4 
+	BYTE	W36
+	BYTE		        Dn4 
+	BYTE		N32     Fn4 
+	BYTE	W36
+	BYTE		N23     En4 
+	BYTE		N23     Gn4 
+	BYTE	W24
+// 010   ----------------------------------------
+	BYTE		N32     Dn4 
+	BYTE		N32     An4 
+	BYTE	W36
+	BYTE		        Dn4 
+	BYTE		N32     Gn4 
+	BYTE	W36
+	BYTE		N23     Dn4 
+	BYTE	W24
+// 011   ----------------------------------------
+	BYTE		        As2 
+	BYTE		N23     As3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N23     As3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N23     As3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N23     As3 
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE		N05     Ds3   v096
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N05     As3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE		N05     Fs4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE		N05     Ds5 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE		N05     As4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE		N05     Fs4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+// 013   ----------------------------------------
+Deathlight_9_013:
+	BYTE		N05     Gs2   v096
+	BYTE		N05     Fs3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE		N05     Ds3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Gs3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Cn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE		N05     Gs4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE		N05     Cn4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N05     Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+Deathlight_9_014:
+	BYTE		N05     Cn3   v096
+	BYTE		N05     Fn3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N05     Bn3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE		N05     Fn4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE		N05     Fn4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE		N05     Bn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE		N05     Gs4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE		N05     Gs4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE		N05     Fn4 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+Deathlight_9_015:
+	BYTE		N05     As2   v096
+	BYTE		N05     Gs3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE		N05     Fn3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     As3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Dn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE		N05     As4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE		N05     Fn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE		N05     Dn4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE		N05     As3 
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+Deathlight_9_016:
+	BYTE		N05     Dn3   v096
+	BYTE		N05     Ds3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N05     As3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE		N05     Fs4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE		N05     Ds5 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE		N05     As4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE		N05     Fs4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_014
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_015
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_016
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_013
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_014
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_015
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_016
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_013
+// 026   ----------------------------------------
+	BYTE		N05     Cn3   v096
+	BYTE		N32     Gs3 
+	BYTE		N32     Bn3 
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		N44     As3 
+	BYTE		N44     Cs4 
+	BYTE		N44     Fn4 
+	BYTE	W60
+// 027   ----------------------------------------
+Deathlight_9_027:
+	BYTE		N32     Bn3   v096
+	BYTE		N32     Ds4 
+	BYTE		N32     Fs4 
+	BYTE	W36
+	BYTE		N44     Cs4 
+	BYTE		N44     Fn4 
+	BYTE		N44     Gs4 
+	BYTE	W60
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE		N32     Gs3 
+	BYTE		N32     Bn3 
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		N44     As3 
+	BYTE		N44     Cs4 
+	BYTE		N44     Fn4 
+	BYTE	W60
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Deathlight_9_027
+// 030   ----------------------------------------
+	BYTE		N32     Gs2   v096
+	BYTE		N32     Gs3 
+	BYTE	W36
+	BYTE		N44     As2 
+	BYTE		N44     As3 
+	BYTE	W60
+// 031   ----------------------------------------
+	BYTE		N32     Bn2 
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		N44     Cs3 
+	BYTE		N44     Cs4 
+	BYTE	W60
+// 032   ----------------------------------------
+	BYTE		N92     Ds3 
+	BYTE		N92     Ds4 
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Deathlight_9_B1
+Deathlight_9_B2:
+// 033   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+Deathlight:
+	BYTE	9	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	Deathlight_pri	// Priority
+	BYTE	Deathlight_rev	// Reverb.
+
+	POIN2	Deathlight_grp
+
+	POIN2	Deathlight_1
+	POIN2	Deathlight_2
+	POIN2	Deathlight_3
+	POIN2	Deathlight_4
+	POIN2	Deathlight_5
+	POIN2	Deathlight_6
+	POIN2	Deathlight_7
+	POIN2	Deathlight_8
+	POIN2	Deathlight_9
+
+	

@@ -1,2 +1,2 @@
-Expertise: Reduce bonus damage[N]
-from critical hits by 50%.[X]
+Natural Cover: -3 damage taken[N]
+when on terrain with effects.[X]

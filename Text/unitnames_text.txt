@@ -1,4 +1,4 @@
-## NameKierra
+# 0x212 NameKierra
 Kierra[X]
 
 ## NamePhantom
@@ -21,6 +21,12 @@ Kolton[X]
 
 ## NameGulfrum
 Gulfrum[X]
+
+## NameEve
+Eve[X]
+
+## NameJoseph
+Joseph[X]
 
 ## NameSpencer
 Spencer[X]
@@ -75,6 +81,12 @@ Wants to avenge his fallen comrades.[X]
 A bandit of Arcwind Peak who lost[N]
 his home. Gentle but ferocious.[X]
 
+## DescEve
+Placeholder[X]
+
+## DescJoseph
+Placeholder[X]
+
 ## DescSpencer
 Leader of the bandits of Arcwind Peak.[N]
 Commanding but fair to his brothers.[X]
@@ -99,4 +111,4 @@ Forces of Racrien.[X]
 
 ## DescStratus
 Soldiers fighting for the falling Kingdom[N]
-of Racrien.[X]
+of Stratus.[X]

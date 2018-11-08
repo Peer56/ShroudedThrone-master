@@ -1,2 +1,2 @@
-Tomefaire: +4 damage[N]
-when equipping a tome.[X]
+Dance: Refresh an ally unit[N]
+to let them act again.[X]

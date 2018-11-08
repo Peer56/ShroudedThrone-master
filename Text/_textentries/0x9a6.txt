@@ -1,2 +1,3 @@
-Darting Stance: +6 speed[NL]
-when foe initiates battle.[X]
+Ready Stance: +4 speed[N]
+and defense when foe[N]
+initiates battle.[X]

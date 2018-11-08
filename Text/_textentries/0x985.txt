@@ -1,2 +1,2 @@
-Shove: Allows unit to push[N]
-other units one tile away.[X]
+Rightful Arch: Sets Skill[N]
+activation rate to 100%.[X]

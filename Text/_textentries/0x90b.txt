@@ -1,2 +1,2 @@
-Savior: Can rescue[N]
-without penalties.[X]
+Canto+: Can move again after[N]
+attacking and other actions.[X]

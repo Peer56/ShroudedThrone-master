@@ -78,6 +78,13 @@ mov	lr, r3
 cmp	r0,#0x00
 beq	End
 
+@check for escaping
+IsEscaping:
+ldr r0,=#0x3005274 @event ID flag byte
+mov r1,#4 @checking for flag 0x23
+tst r0,r1
+bne End
+
 CanCanto:
 @if canto, unset 0x2 and set 0x40
 ldr	r0, [r4,#0x0C]	@status bitfield

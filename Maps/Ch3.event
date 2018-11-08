@@ -8,13 +8,8 @@ Map:
 #incbin "Ch3_data.dmp"
 
 MapChanges:
-TileMap(0,5,11,2,3,WallDestroyed)
-TileMap(1,18,17,1,1,ChestOpened)
+TileMap(0,18,17,1,1,ChestOpened)
 TileMapEnd
-
-WallDestroyed:
-SHORT 0x7a8 0xad8 0x340 0xb50 0x72c 0x9d8 
-ALIGN 4
 
 ChestOpened:
 SHORT 0x104 

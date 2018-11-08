@@ -1,0 +1,62 @@
+# 0xC23 QuoteDeathKierra
+[OpenFarRight][LoadKierra]
+N-no.. Not here.. [....].S-some...one... [NL]
+help..me... [CloseEyes] Father...[A][X]
+
+## QuoteDeathCyrus
+[OpenFarRight][LoadCyrus]
+Damn it, I got careless... Sorry [NL]
+Kierra... I'm sorry.[A][CloseEyes][X]
+
+## QuoteDeathOctavius
+[OpenFarRight][LoadOctavius]
+Ouch. That hurt a lot... Darn..[NL]
+Sorry, guys.[A][CloseEyes][X]
+
+## QuoteDeathKolton
+[OpenFarRight][LoadKolton]
+Blegh.. Looks like...I'll never get to[NL]
+avenge you guys...[A][CloseEyes][X]
+
+## QuoteDeathAlain
+[OpenFarLeft][LoadAlain]
+This is a placeholder[A][X]
+
+## QuoteDeathAlainCH1
+[OpenFarLeft][LoadAlain]
+So strong...Urgh, must retreat.[A][X]
+
+## QuoteDeathGalahadCH1
+[OpenFarLeft][LoadGalahad]
+I was overconfident... But, I[NL]
+musn't abandon Alain now.[A][X]
+
+## QuoteDeathSpencer
+[OpenFarLeft][LoadSpencer]
+Damnit! So...close. Sorry, brothers...[A][CloseEyes][X]
+
+## QuoteDeathWalcher
+[OpenFarLeft][LoadWalcher]
+Urrgh... You may have defeated me,[NL]
+but Racrien will conquer all![A][NL]
+...My death...means...nothing...[A][CloseEyes][X]
+
+## QuoteBattleAlainCH1
+[OpenFarLeft][LoadAlain]
+Come, knaves! You face Alain of [NL]
+Racrien! You shall not pass me![A][X]
+
+## QuoteBattleGalahadCH1
+[OpenFarLeft][LoadGalahad]
+Prepare yourself. You're about[NL]
+to be slaughtered.[A][X]
+
+## QuoteBattleGalahadKierraCH1
+[OpenFarLeft][LoadGalahad][OpenFarRight][LoadKierra]
+[OpenFarLeft]Those eyes...![A][ClearFace]
+[OpenFarRight]Out of the way, or die.[A][ClearFace]
+[OpenFarLeft]I musn't fail! For my liege![A][X]
+
+## QuoteBattleSpencer
+[OpenFarLeft][LoadSpencer]
+placeholder[X]

@@ -1,2 +1,2 @@
-Critical Force: Base critical is[N]
-Skl * 1.5.[X]
+Moonbow: Enemy Def/Res is[N]
+reduced by 25%. Charge: 2[X]

@@ -1,2 +1,2 @@
-Even Rhythm: +10 Hit and Avoid[N]
-on even numbered turns.[X]
+Pivot: Allows unit to move to the[N]
+opposite side of an adjacent ally.[X]

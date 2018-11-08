@@ -1,2 +1,2 @@
-Dazzle: Opponents cannot[N]
-counterattack this unit.[X]
+Trace: During Battle, copies[N]
+the first Skill of the enemy.[X]

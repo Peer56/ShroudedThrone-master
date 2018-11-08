@@ -1,1 +1,2 @@
-Zeke[X]
+Pass: Can move through[N]
+enemy units.[X]

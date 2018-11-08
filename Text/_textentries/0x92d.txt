@@ -1,2 +1,2 @@
-Wrath: If HP < 50%,[N]
-+20 critical rate.[X]
+Swordfaire: +4 damage[N]
+when equipping a sword.[X]

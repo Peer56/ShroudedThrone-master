@@ -1,2 +1,2 @@
-Charisma: Grants +10 Hit/Avoid[N]
-to all allies within three tiles.[X]
+Vantage+: User always attacks first,[N]
+even if attacked. Negates crits.[X]

@@ -1,2 +1,2 @@
-Canto+: Can move again after[N]
-attacking and other actions.[X]
+Mercy: Enemies are left[N]
+with at least 1 HP.[X]

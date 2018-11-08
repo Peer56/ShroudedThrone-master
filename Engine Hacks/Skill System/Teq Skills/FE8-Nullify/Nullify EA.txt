@@ -1,0 +1,169 @@
+//FE8 Nullify, with potential weapon effectiveness and Slayer overhaul
+//By Tequila
+
+#ifndef _FE8_
+    ERROR "You're not assembling to an FE8 ROM!"
+#endif
+
+#include EAStdlib.event
+#include "Extensions/Hack Installation.txt"
+
+#ifndef FreeSpace
+    #define FreeSpace 0xB2A610
+    ORG FreeSpace
+#endif
+
+#ifndef __SLAYER_AND_EFFECTIVENESS_REWORK__
+	//we merely add Slayer and Nullify checks as necessary
+	
+	PUSH
+	
+	//Slayer
+	ORG $16C8A
+	SHORT 0x46C0
+	callHack_r3(Normal_Slayer)
+	SHORT 0x2900 0xD000 //cmp r1,#0; beq nextLine
+	
+	//Weapon effectiveness
+	ORG $16BFA
+	SHORT 0x4D06 //ldr r5,=ItemTable
+	callHack_r1(Normal_Effectiveness)
+	SHORT 0x46C0 0x46C0 0x46C0
+	
+	POP
+	
+	ALIGN 4
+	Normal_Slayer:
+	#incbin "Normal_Slayer.dmp"
+	POIN SkillTester
+	WORD SlayerID NullifyID
+	
+	ALIGN 4
+	Normal_Effectiveness:
+	#incbin "Normal_Effectiveness.dmp"
+	POIN SkillTester
+	WORD NullifyID
+	
+#else
+	//OVERHAUL, BABY
+	
+	PUSH
+	
+	//Modify the part that multiplies weapon might for effective weapons and slayer
+	ORG $2AAEC
+	#incbin "Add_Weapon_Might.dmp"
+	
+	//slayer redux
+	ORG $16C88
+	jumpToHack(Redone_Slayer)
+	
+	//effectiveness redux
+	ORG $16BEC
+	jumpToHack(Redone_Effectiveness)
+	
+	POP
+	
+	ALIGN 4
+	Redone_Slayer:
+	#incbin "Redone_Slayer.dmp"
+	POIN SkillTester
+	WORD SlayerID
+	WORD NullifyID
+	POIN SlayerTable
+	
+	ALIGN 4
+	Redone_Effectiveness:
+	#incbin "Redone_Effectiveness.dmp"
+	POIN SkillTester
+	WORD NullifyID
+	
+	#define SlayerTableEntry(class_id, type_list, coefficient_times_2) "BYTE class_id coefficient_times_2; SHORT type_list"
+	ALIGN 4
+	SlayerTable:
+	SlayerTableEntry(Bishop, FlierType, 6)
+	WORD 0 //terminator
+	
+	//Change existing effective items (class weaknesses are already part of the class data table)
+	#define ItemEffectivenessPtr(item_id, label_to_point_to) "PUSH; ORG ItemTable + 0x24*item_id + 0x10; POIN label_to_point_to; POP"
+	ItemEffectivenessPtr(WindBrand, WindEffectiveness)
+	ItemEffectivenessPtr(Longsword, HorseEffectiveness)
+	ItemEffectivenessPtr(Estoc, ArmorEffectiveness)
+	ItemEffectivenessPtr(Glaive, FlierEffectiveness)
+	ItemEffectivenessPtr(Partisan, HorseEffectiveness)
+	ItemEffectivenessPtr(Ranseur, ArmorEffectiveness)
+	ItemEffectivenessPtr(Harpoon, FlierEffectiveness)
+	ItemEffectivenessPtr(Halberd, HorseEffectiveness)
+	ItemEffectivenessPtr(Maul, ArmorEffectiveness)
+	ItemEffectivenessPtr(Berdeche, FlierEffectiveness)
+	ItemEffectivenessPtr(IronBow, FlierEffectiveness)
+	ItemEffectivenessPtr(SteelBow, FlierEffectiveness)
+	ItemEffectivenessPtr(SilverBow, FlierEffectiveness)
+	ItemEffectivenessPtr(KillerBow, FlierEffectiveness)
+	ItemEffectivenessPtr(BraveBow, FlierEffectiveness)
+	ItemEffectivenessPtr(Kyudo, FlierEffectiveness)
+	ItemEffectivenessPtr(CleaveBow, CleaveBowEffectiveness)
+	ItemEffectivenessPtr(HuntingBow, HuntingBowEffectiveness)
+	ItemEffectivenessPtr(Arrowspate, FlierEffectiveness)
+	ItemEffectivenessPtr(Stonehoist, FlierEffectiveness)
+	ItemEffectivenessPtr(Pachyderm, FlierEffectiveness)
+	ItemEffectivenessPtr(Fire, FireEffectiveness)
+	ItemEffectivenessPtr(Elfire, FireEffectiveness)
+	ItemEffectivenessPtr(Arcfire, FireEffectiveness)
+	ItemEffectivenessPtr(Rexfire, FireEffectiveness)
+	ItemEffectivenessPtr(Wind, WindEffectiveness)
+	ItemEffectivenessPtr(Elwind, WindEffectiveness)
+	ItemEffectivenessPtr(Arcwind, WindEffectiveness)
+	ItemEffectivenessPtr(Rexwind, WindEffectiveness)
+	ItemEffectivenessPtr(Thunder, ThunderEffectiveness)
+	ItemEffectivenessPtr(Elthunder, ThunderEffectiveness)
+	ItemEffectivenessPtr(Arcthunder, ThunderEffectiveness)
+	ItemEffectivenessPtr(Rexthunder, ThunderEffectiveness)
+	ItemEffectivenessPtr(Fauchard, HorseEffectiveness)
+	ItemEffectivenessPtr(Shiv, ArmorEffectiveness)
+	
+	//Protector item (macro still works, even if it's wrongly named)
+	ItemEffectivenessPtr(FlierGuard, FlierProtection)
+	ItemEffectivenessPtr(KnightGuard, KnightProtection)
+	ItemEffectivenessPtr(FullGuard, FullProtection)
+	
+	#define SetWeaponEffectiveness(type_list, coefficient_times_2) "BYTE 0 coefficient_times_2; SHORT type_list"
+	ArmorEffectiveness:
+	SetWeaponEffectiveness(ArmorType, 6)
+	WORD 0 //terminator
+	HorseEffectiveness:
+	SetWeaponEffectiveness(HorseType, 6)
+	WORD 0
+	WyvernEffectiveness:
+	SetWeaponEffectiveness(WyvernType, 6)
+	WORD 0
+	PegasusEffectiveness:
+	SetWeaponEffectiveness(PegasusType, 6)
+	WORD 0
+	FlierEffectiveness:
+	SetWeaponEffectiveness(FlierType, 6)
+	WORD 0
+	FireEffectiveness:
+	SetWeaponEffectiveness(HorseType, 4)
+	WORD 0
+	ThunderEffectiveness:
+	SetWeaponEffectiveness(WyvernType, 4)
+	WORD 0
+	WindEffectiveness:
+	SetWeaponEffectiveness(PegasusType, 4)
+	WORD 0
+	CleaveBowEffectiveness:
+	SetWeaponEffectiveness(ArmorType|FlierType, 6)
+	WORD 0
+	HuntingBowEffectiveness:
+	SetWeaponEffectiveness(HorseType|FlierType, 6)
+	WORD 0
+	
+	#define SetProtection(type_list) "SHORT 0 type_list"
+	FlierProtection:
+	SetProtection(FlierType|PegasusType|WyvernType)
+	KnightProtection:
+	SetProtection(HorseType|ArmorType)
+	FullProtection:
+	SetProtection(HorseType|ArmorType|FlierType|PegasusType|WyvernType)
+	
+#endif 

@@ -1,2 +1,2 @@
-Slayer: Deal effective damage[N]
-to monster units.[X]
+Galeforce: Move again after[N]
+attacking and defeating an enemy.[X]

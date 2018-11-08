@@ -1,0 +1,1 @@
+Nullifies critical hits against user.[X]

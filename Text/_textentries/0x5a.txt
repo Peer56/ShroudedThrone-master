@@ -1,2 +1,2 @@
-Freeze all enemies[N]
-for one turn[X]
+Raid houses or villages to[N]
+get loot from them.[X]

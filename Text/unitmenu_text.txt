@@ -65,9 +65,29 @@ unit's opposite side.[X]
 Swap positions with adjacent[N]
 ally.[X]
 
-## UM_Raid
+## UM_Capture
+ Capture[X]
+
+## UM_CaptureDesc
+Strike a fatal blow with reduced[N]
+stats to capture an enemy.[X]
+
+## UMText_Raid
  Raid[X]
  
-## UM_RaidDesc
-Raid villages to get loot.[X]
+## UMText_RaidDesc
+Raid houses or villages to[N]
+get loot from them.[X]
+
+## UM_Escape
+ Escape[X]
  
+## UM_EscapeDesc
+Escape from the chapter. If this[N]
+unit is the lord, beat chapter.[X]
+
+## UM_Arrive
+ Arrive[X]
+
+## UM_ArriveDesc
+Arrive at destination.[X]

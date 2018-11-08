@@ -1,2 +1,2 @@
-Death Blow: +6 Attack[N]
-when initiating battle.[X]
+Hawkeye: User will[N]
+always hit the enemy.[X]

@@ -15,7 +15,7 @@ POIN BeginningScene EndingScene
 
 Units:
 UNIT Kierra KierraLord 0x0 Level(1,Ally,0) [5,16] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
-UNIT Cyrus CyrusLord 0x0 Level(1,Ally,0) [6,15] 0x0 0x0 0x0 0x0 [Rapier,Vulnerary] NoAI
+UNIT Cyrus CyrusLord 0x0 Level(1,Ally,0) [6,15] 0x0 0x0 0x0 0x0 [Shiv,Vulnerary] NoAI
 UNIT
 
 Bad:
@@ -23,7 +23,7 @@ UNIT Spencer Brigand 0x0 Level(3,Enemy,0) [7,2] 0x0 0x0 0x1 REDA8R2 [IronAxe,Han
 UNIT GenericCH2 Brigand Spencer Level(1,Enemy,1) [7,11] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT GenericCH2 Archer Spencer Level(1,Enemy,1) [10,13] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
 UNIT GenericCH2 Fighter Spencer Level(2,Enemy,1) [5,8] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-UNIT GenericCH2 Archer Spencer Level(1,Enemy,1) [3,10] 0x0 0x0 0x0 0x0 [Longbow,Vulnerary] AttackInRangeAI
+UNIT GenericCH2 Archer Spencer Level(1,Enemy,1) [3,10] 0x0 0x0 0x0 0x0 [SteelBow,Vulnerary] AttackInRangeAI
 UNIT GenericCH2 Mercenary Spencer Level(1,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
 UNIT GenericCH2 AxeCavalier Spencer Level(1,Enemy,1) [4,0] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT GenericCH2 Myrmidon Spencer Level(1,Enemy,1) [10,8] 0x0 0x0 0x0 0x0 [IronSword,Vulnerary] AttackInRangeAI

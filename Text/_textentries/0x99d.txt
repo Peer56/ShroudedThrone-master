@@ -1,2 +1,2 @@
-Identity Problems: This unit can't[N]
-decide on a name or face.[X]
+Catch 'Em All: Grants[N]
+the user every skill.[X]

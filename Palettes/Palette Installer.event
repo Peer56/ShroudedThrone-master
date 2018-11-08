@@ -25,3 +25,12 @@ PaletteWalcher:
 PaletteLeonidas:
 	#incbin "./_palettes/PaletteLeonidas.lzpal" 
 
+GenericCavalier:
+	#incbin "./_palettes/GenericCavalier.lzpal" 
+
+GenericFighter:
+	#incbin "./_palettes/GenericFighter.lzpal" 
+
+GenericArmorKnight:
+	#incbin "./_palettes/GenericArmorKnight.lzpal" 
+

@@ -1,0 +1,17 @@
+## HelptextCH0
+Stratus Castle Keep[X]
+
+## HelptextCH1
+Wellspring[X]
+
+## HelptextCH2
+Arcwind Trail[X]
+
+## HelptextCH3
+Arcwind Peak[X]
+
+## HelptextCH4
+Placeholder[X]
+
+## HelptextCH5
+Placeholder[X]

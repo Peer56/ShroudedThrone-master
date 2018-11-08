@@ -1,2 +1,2 @@
-Certain Blow: +40 Hit[N]
-when initiating battle.[X]
+Wrath: If HP < 50%,[N]
++20 critical rate.[X]

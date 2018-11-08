@@ -1,2 +1,2 @@
-Adept: Gain a consecutive attack.[N]
-(Speed % activation)[X]
+Wary Fighter: Unit cannot[N]
+double or be doubled.[X]

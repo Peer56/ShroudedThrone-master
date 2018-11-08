@@ -1,1 +1,2 @@
-Arrive at destination.[X]
+Savior: Can rescue[N]
+without penalties.[X]

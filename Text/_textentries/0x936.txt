@@ -1,1 +1,2 @@
-Crit Boost: +15 critical rate.[X]
+Lifetaker: Restore up to 25% HP after[N]
+attacking and defeating an enemy.[X]

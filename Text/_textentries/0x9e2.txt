@@ -1,1 +1,2 @@
-Halberdier[X]
+A merchant who transports goods and[N]
+supplies who uses a bow for self-defense.[X]
